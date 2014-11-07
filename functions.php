@@ -2,7 +2,7 @@
 
 <?php register_nav_menu("main_menu", "Main Menu"); ?>
 
-<?php wp_nav_menu($mainMenu); ?>
+<!--<?php wp_nav_menu($mainMenu); ?>-->
 
 <?php add_theme_support("post-thumbnails"); ?>
 
