@@ -16,6 +16,8 @@
 			<h2><?php bloginfo("description"); ?></h2>
 		</hgroup>
 		
-		<?php wp_nav_menu(array('menu' => 'Primary Menu')); ?>
+		<nav>
+			<?php wp_nav_menu(array('menu' => 'Primary Menu')); ?>
+		</nav>
 	</header>
 	<div id="content">
