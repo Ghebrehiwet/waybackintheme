@@ -10,14 +10,61 @@ Tags:
 
 General comments (optional).
  */
-
 body {
   margin: 0;
-}
-body h1 {
-  color: #000000;
+  padding: 0; 
+  max-width: 100%;
 }
 
+
+#main_header {
+ max-width: 100%; 
+}
+
+#main_header  hgroup{
+ float: left;
+ max-width: 100%;
+}
+
+#main_header  hgroup h1{
+ color: #75AD3E;
+ font-size: 2em;
+}
+
+#main_header  hgroup img{
+ max-width: 100%;
+}
+
+
+#main_header  nav{
+  max-width: 100%;
+  background-color: #ccc;
+}
+
+#main_header  nav ul{
+  
+}
+
+#main_header  nav ul li{
+  display: inline-block;
+}
+#main_header  nav ul li a{
+  
+}
+
+#main_header  nav ul li a:link{
+  
+}
+
+#main_header  nav ul li a:visited{
+  
+}
+#main_header  nav ul li a:hover{
+  
+}
+#main_header  nav ul li a:focus{
+  
+}
 
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
 		
