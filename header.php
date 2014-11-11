@@ -12,7 +12,7 @@
 <body <?php body_class($class); ?>>
 	<header id="main_header">
 		<hgroup>
-			<h1><?php bloginfo("name"); ?></h1>
+			<h1><a href="<?php echo get_option('home');?>/"<?php bloginfo("name"); ?></h1>
 			<h2><?php bloginfo("description"); ?></h2>
 		</hgroup>
 		
