@@ -19,7 +19,7 @@
 	//menu
 	$mainMenu = array(
 		"theme_location" => "main_menu",
-		"container" => "nav",
+		"container" => "ul",
 		"container_class" => "",
 		"container_id" => "main_menu",
 		"depth" => 1
