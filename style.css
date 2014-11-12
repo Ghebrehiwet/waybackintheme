@@ -41,8 +41,11 @@ body {
   background-color: #ccc;
 }
 
-#main_header  nav ul{
-  
+#main_header  nav ul ul{
+	display:none;
+}
+#main_header nav ul li:hover > ul {
+	display: block;
 }
 
 #main_header  nav ul li{
