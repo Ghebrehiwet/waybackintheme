@@ -40,7 +40,20 @@ body {
   max-width: 100%;
   background-color: #ccc;
 }
-
+#main_header nav ul { 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+#main_header nav ul:after {
+		content: ""; clear: both; display: block;
+	}
 #main_header  nav ul ul{
 	display:none;
 }
