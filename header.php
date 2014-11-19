@@ -12,8 +12,8 @@
 <body <?php body_class($class); ?>>
 	<div id="wrapper">
 		<div id="header">
-			<h1><a href="index.php"> <!--<span><a href="<?php echo get_option('home'); ?><?php bloginfo('template_url'); ?>/images/fakelogo.jpg" id="logo"  
-		alt="My Logo"> <!-- for screen readers --></a></span></h1><h1><?php bloginfo('name'); ?></a> </h1>
+			<h1><?php echo get_option('home'); ?><span><img src="<?php bloginfo('template_url'); ?>/images/logo-footer.png" alt="logo"></span> </h1>
+			<h1><?php bloginfo('name'); ?></a> </h1>
 		</div> 
 		<nav>
 			<?php wp_nav_menu(array('menu' => 'Primary Menu')); ?>
