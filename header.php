@@ -12,11 +12,11 @@
 <body <?php body_class($class); ?>>
 	<div id="wrapper">
 		<div id="header">
-			<h1><?php echo get_option('home'); ?><span><img src="<?php bloginfo('template_url'); ?>/images/logo-footer.png" alt="logo"></span> </h1>
+			<h1><img src="<?php bloginfo('template_url'); ?>/images/fakelogo.jpg" alt="logo"></h1>
 			<h1><?php bloginfo('name'); ?></a> </h1>
 		</div> 
 		<nav>
-			<?php wp_nav_menu(array('menu' => 'Primary Menu')); ?>
+			<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 		</nav>
 	 
 	<div id="main-content">
