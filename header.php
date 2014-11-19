@@ -10,11 +10,13 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class($class); ?>>
-	<header id="main_header">
-		<h1><a href="index.php"> <!--<span><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('template_url'); ?>/images/fakelogo.jpg" id="logo"  
-		alt="My Logo"> <!-- for screen readers --></a></span></h1><h1><?php bloginfo('name'); ?></a> </h1>	
+	<div id="wrapper">
+		<div id="header">
+			<h1><a href="index.php"> <!--<span><a href="<?php echo get_option('home'); ?><?php bloginfo('template_url'); ?>/images/fakelogo.jpg" id="logo"  
+		alt="My Logo"> <!-- for screen readers --></a></span></h1><h1><?php bloginfo('name'); ?></a> </h1>
+		</div> 
 		<nav>
 			<?php wp_nav_menu(array('menu' => 'Primary Menu')); ?>
 		</nav>
-	</header>
-	<div id="content">
+	 
+	<div id="main-content">
