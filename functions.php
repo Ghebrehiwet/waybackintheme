@@ -8,9 +8,9 @@ register_nav_menu("main_menu", "Main Menu");
 
 add_theme_support("post-thumbnails");
 
-set_post_thumbnail_size(200,200, true); ?>
+set_post_thumbnail_size(200,200, true);
 
-add_post_type_support("page", "excerpt"); ?>
+add_post_type_support("page", "excerpt");
 
 //menu
 $mainMenu = array(
