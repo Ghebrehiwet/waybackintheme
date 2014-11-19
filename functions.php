@@ -31,12 +31,12 @@ register_sidebar(array(
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"
 	
-	register_sidebar(array(
+	/*register_sidebar(array(
 	"name" => "Footer Side Bar",
 	"id" => "right_aside",
 	"description" => "Footer Side Bar",
 	"before_widget" => "<div class='widget'>",
 	"after_widget" => "</div><!-- end widget -->",
 	"before_title" => "<h3 class='widget_title'>",
-	"after_title" => "</h3>"
+	"after_title" => "</h3>"*/
 ));
