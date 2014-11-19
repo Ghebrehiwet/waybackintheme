@@ -5,8 +5,8 @@
                   <span><?php bloginfo('name'); ?></span></a>
                 </div>
                 <div>
-                  <!--<?php get_sidebar("footer"); ?> -->
-				 <?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+                  <?php get_sidebar("footer"); ?>
+				 <!--<?php wp_nav_menu(array('menu' => 'Main Menu')); ?> -->
                 </div>
                 <div>
                 	<span>Program Manager: Tonya Ward</span>
