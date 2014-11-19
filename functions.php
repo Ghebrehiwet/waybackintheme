@@ -22,7 +22,7 @@ $mainMenu = array(
 );
 
 //sidebars
-register_sidebar(array(
+/*register_sidebar(array(
 	"name" => "Right Side Bar",
 	"id" => "right_aside",
 	"description" => "Right Side Bar",
@@ -39,4 +39,61 @@ register_sidebar(array(
 	"after_widget" => "</div><!-- end widget -->",
 	"before_title" => "<h3 class='widget_title'>",
 	"after_title" => "</h3>"*/
-));
+//));
+
+/*register_sidebar(array( 
+	register_sidebar(array(
+	"name" => "Footer Side Bar",
+	"id" => "right_aside",
+	"description" => "Footer Side Bar",
+	"before_widget" => "<div class='widget'>",
+	"after_widget" => "</div><!-- end widget -->",
+	"before_title" => "<h3 class='widget_title'>",
+	"after_title" => "</h3>"
+));*/
+
+
+
+
+function my_register_sidebars() {
+
+	/* Register the primary sidebar. */
+	register_sidebar(
+		array(
+			'id' => 'right',
+			'name' => __( 'Right Sidebar' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>'
+		)
+	);
+	
+	/* Register the secondary sidebar.
+	register_sidebar(
+		array(
+			'id' => 'secondary',
+			'name' => __( 'Secondary Sidebar' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>'
+		)
+	); */
+	
+	/* Register the footer widget area. */
+	register_sidebar(
+		array(
+			'id' => 'footer',
+			'name' => __( 'Footer Widget Area' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>'
+		)
+	);
+	
+	
+	/* Repeat register_sidebar() code for additional sidebars. */
+}
+
