@@ -527,7 +527,7 @@ footer span.logo {
 
 /*styles for pages.html */
 
-.main_content left{
+.main_content {
 	width:74.468085%;
 	float:left;
 	overflow:hidden;
