@@ -606,7 +606,7 @@ footer span.logo {
 
 
 /*styles for index.html */
-div.post-list span {
+/*div.post-list span {
 	width:100%;
 	text-align:center;
 	display:block;
@@ -615,7 +615,7 @@ div.post-list span {
 	margin-top:20px;
 	font-family:Arial;
 	font-style:normal;
-}
+}*/
 div.post-list a {
 	text-decoration:none;
 	background-color:#2B621D;
