@@ -14,7 +14,7 @@ Template Name: Front Page
 
 			</div>
 			<div id="flexslider">
-				Flexslider
+				[metaslider id=113]
 
 			</div>
 			<div id="button-container1">

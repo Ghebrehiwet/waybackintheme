@@ -12,7 +12,7 @@
 <body <?php body_class($class); ?>>
 	<div id="wrapper">
 		<div id="header">
-			<h1><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"></h1>
+			<h1><a href=""><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"></a></h1>
 			<h1><?php bloginfo('name'); ?></a> </h1>
 		</div> 
 		<nav>
