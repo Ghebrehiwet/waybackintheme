@@ -45,36 +45,36 @@ Template Name: Front Page
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <p> 
 					
-					<?php if(have_posts()): while(have_posts()): the_post(); ?>
-		 
-	 
-		<div id="post"><!--open #post -->
-						 
-				<div class="post">
-						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-					<!--</article>-->
-					<!--<p><small>Posted -->
-						<time datetime="<?php the_time('Y-m-d'); ?>'>
-							<?php the_time('M j'); ?>
-						</time>
-						by <?php the_author();?>,
-						<?php comments_number("0 comments", "1 comment", "% comments"); ?>
-					<!--</small></p>-->
-					<div class="post-list">
-						<?php the_post_thumbnail(); ?>
-						<p><?php the_content(); ?></p>
-					</div>
-				</div>
-		</div>
-	
-	<?php endwhile; else: ?>
-		<p>Sorry no posts to display</p>
-	<?php endif; ?>
+							<?php if(have_posts()): while(have_posts()): the_post(); ?>
+								 
+							 
+								<div id="post"><!--open #post -->
+												 
+										<div class="post">
+												<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+											<!--</article>-->
+											<!--<p><small>Posted -->
+												<time datetime="<?php the_time('Y-m-d'); ?>'>
+													<?php the_time('M j'); ?>
+												</time>
+												by <?php the_author();?>,
+												<?php comments_number("0 comments", "1 comment", "% comments"); ?>
+											<!--</small></p>-->
+											<div class="post-list">
+												<?php the_post_thumbnail(); ?>
+												<p><?php the_content(); ?></p>
+											</div>
+										</div>
+								</div>
+							
+							<?php endwhile; else: ?>
+								 
+							<?php endif; ?>
+											
 					
-					
-					
+					<a href=" http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/testimonials">Read More  >></a> 
 					</p>
-                    <a href="">Read More  >></a> 
+                    
 			</div>
 			<div id="ads">
 				Ads
