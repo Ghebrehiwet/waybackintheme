@@ -16,31 +16,7 @@
 			<h1><?php bloginfo('name'); ?></a> </h1>
 		</div> 
 		<nav>
-		<?php
-
-$defaults = array(
-	'theme_location'  => 'main_menu',
-	'menu'            => '',
-	'container'       => 'ul',
-	'container_class' => 'top-level-nav',
-	'container_id'    => '',
-	'menu_class'      => 'menu',
-	'menu_id'         => '',
-	'echo'            => true,
-	'fallback_cb'     => 'wp_page_menu',
-	'before'          => '',
-	'after'           => '',
-	'link_before'     => '',
-	'link_after'      => '',
-	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-	'depth'           => 0,
-	'walker'          => ''
-);
-
-wp_nav_menu( $defaults );
-
-?>
-			<!--<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>-->
+			<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 		</nav>
 	 
 	<div id="main-content">
