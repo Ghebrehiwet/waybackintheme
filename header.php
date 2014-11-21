@@ -14,9 +14,14 @@
 		<div id="header">
 			<h1><a href=""><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"></a></h1>
 			<h1><?php bloginfo('name'); ?></a> </h1>
-		</div> 
-		<nav>
-			<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
-		</nav>
+		</div>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle"><?php _e( 'Menu', 'main_menu' ); ?></button>
+			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'main_menu' ); ?>"><?php _e( 'Skip to content', 'main_menu' ); ?></a>
+			<?php wp_nav_menu( array( 'theme_location' => 'main_menu', 'menu_class' => '' ) ); ?>
+		</nav><!-- #site-navigation -->
+		
+		
 	 
 	<div id="main-content">
