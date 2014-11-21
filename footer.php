@@ -1,7 +1,7 @@
 	<footer>
 		<div>
                 <a href="">
-                  <span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo"></span>
+                  <span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"></span>
                   <span><?php bloginfo('name'); ?></span></a>
                 </div>
                 <div>
