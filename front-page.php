@@ -47,7 +47,9 @@ Template Name: Front Page
                     <a href="">Read More  >></a> 
 			</div>
 			<div id="ads">
-				Ads
+				<?php 
+					echo do_shortcode("[metaslider id=162]"); 
+				?>
 			</div> 
 <?php get_footer(); ?>
 
