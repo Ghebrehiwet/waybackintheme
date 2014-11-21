@@ -10,7 +10,7 @@
 				<?php if(get_the_tags()): ?>
 					<p><?php the_tags(); ?></p>
 				<?php endif; ?>
-			<small>Posted
+			<small>Posted by
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
 				 
 				by <?php the_author();?>,
