@@ -1,11 +1,12 @@
 	<footer>
 		<div>
                 <a href="">
-                  <span><img src="<?php bloginfo('template_url'); ?>/images/logo-footer.png" alt="logo"></span>
+                  <span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo"></span>
                   <span><?php bloginfo('name'); ?></span></a>
                 </div>
                 <div>
                   <?php get_sidebar("footer"); ?>
+				  <?php wp_page_menu(); ?>
 				 <!--<?php wp_nav_menu(array('menu' => 'Main Menu')); ?> -->
                 </div>
                 <div>
