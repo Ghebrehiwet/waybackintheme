@@ -627,9 +627,14 @@ div.post-list a {
 	bottom:20px;		
 }*/
 
- div.post-list p {
-	text-align:justify;
+ div.post-list .image-left { 
 	margin-left:10px;
+	float: left;
+}
+
+div.post-list .text-right{ 
+	margin-left:10px;
+	float: left;
 }
 
 
