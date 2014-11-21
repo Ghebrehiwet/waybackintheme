@@ -2,7 +2,7 @@
 
 <div class="main_content left">
 	<?php if(have_posts()): while(have_posts()): the_post(); ?>
-		<?php get_search_form("right");?>
+		 
 		<h2><?php the_title(); ?></h2>
 		<?php the_post_thumbnail(); ?>
 		<?php the_content(); ?>
@@ -30,5 +30,5 @@
 	<?php endif; ?>
 </div>
 
-<?php get_sidebar("right"); ?>
+<?php get_sidebar("widget"); ?>
 <?php get_footer(); ?>
