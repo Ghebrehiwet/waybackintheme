@@ -474,6 +474,10 @@ div#testimonials a {
 	right:0px;
 	bottom:20px;		
 }
+
+#testimonials p {
+	padding: 6px;
+}
 div#testimonials img {
 	float:left;
 	margin-left:10px;
