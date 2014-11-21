@@ -47,9 +47,7 @@ Template Name: Front Page
                     <a href="">Read More  >></a> 
 			</div>
 			<div id="ads">
-				<div id="flexslider">
-					 
-				</div>
+				 ads
 			</div> 
 <?php get_footer(); ?>
 
