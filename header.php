@@ -17,9 +17,9 @@
 		</div> 
 		
 		<nav>
-			<ul>
+			 
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
-			</ul>
+			 
 		</nav>
 	 
 	<div id="main-content">
