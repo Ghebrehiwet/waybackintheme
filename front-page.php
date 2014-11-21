@@ -51,20 +51,19 @@ Template Name: Front Page
 								<div id="post"><!--open #post -->
 												 
 										<div class="post"> 
-											<!--</article>-->
-											<!--<p><small>Posted -->
+											 
 												<time datetime="<?php the_time('Y-m-d'); ?>'>
 													<?php the_time('M j'); ?>
 												</time>
 												by <?php the_author();?>,
 												<?php comments_number("0 comments", "1 comment", "% comments"); ?>
-											<!--</small></p>-->
+											 
 											<div class="post-list">
 												<?php the_post_thumbnail(); ?>
 												<p><?php the_content(); ?></p>
 											</div>
-										</div>
 								</div>
+								 
 							
 							<?php endwhile; else: ?>
 								 
