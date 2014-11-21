@@ -50,8 +50,7 @@ Template Name: Front Page
 							 
 								<div id="post"><!--open #post -->
 												 
-										<div class="post">
-												<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+										<div class="post"> 
 											<!--</article>-->
 											<!--<p><small>Posted -->
 												<time datetime="<?php the_time('Y-m-d'); ?>'>
