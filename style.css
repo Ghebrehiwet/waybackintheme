@@ -118,8 +118,7 @@ display: inline-block;
 }
 
 ul.children > li {
-display: block;
-z-index: 10000;
+display: block; 
 background-color: blueviolet;
 }
 
