@@ -7,7 +7,7 @@
 		<div id="post"><!--open #post -->
 						 
 				<div class="post">
-						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					 
 						<time datetime="<?php the_time('Y-m-d'); ?>">
 							<?php the_time('M j, Y'); ?>
@@ -22,6 +22,7 @@
 				</div>
 		</div>
 	<hr>
+	
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
 	<?php endif; ?>
