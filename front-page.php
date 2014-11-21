@@ -48,9 +48,7 @@ Template Name: Front Page
 			</div>
 			<div id="ads">
 				<div id="flexslider">
-					<?php 
-						echo do_shortcode("[metaslider id=162]"); 
-					?>
+					 
 				</div>
 			</div> 
 <?php get_footer(); ?>
