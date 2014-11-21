@@ -25,8 +25,8 @@
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
 	<?php endif; ?>
-<?php get_sidebar("widget"); ?>
-</div><!--close #pagecontent -->
 
+</div><!--close #pagecontent -->
+<?php get_sidebar("widget"); ?>
 <?php get_footer(); ?>
 
