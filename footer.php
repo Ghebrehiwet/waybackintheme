@@ -16,7 +16,7 @@
                 </div>
 		
 			</footer>
-	<?php wp_footer(); ?>
+	 
 		</div><!-- close #main-content -->
 	</div><!-- close #wrapper-->
 </body>
