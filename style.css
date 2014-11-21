@@ -117,6 +117,10 @@ height:100%;
 display: inline-block;
 }
 
+ul.children > li {
+display: block;
+}
+
 nav > ul > li
 {
 	display: inline-block;
