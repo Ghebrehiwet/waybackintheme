@@ -16,7 +16,7 @@
 						<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 					 
 					<div class="post-list">
-						<?php the_post_thumbnail(); ?>
+						<p><?php the_post_thumbnail(); ?></p>
 						<p><?php the_content(); ?></p>
 					</div>
 				</div>
