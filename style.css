@@ -276,6 +276,15 @@ div#flexslider{
 	float:right;
 }
 
+div#ads div#flexslider{
+	width:100%;
+	height:200px;
+	background-color:#B9D59D;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+
 
 /* Begin horizontal button list */
 
