@@ -87,7 +87,12 @@ nav {
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  padding-top: 7px;
 }
+
+/*.menu {
+padding-top: 7px;
+}*/
 
 nav ul
 {
