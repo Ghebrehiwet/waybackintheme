@@ -222,6 +222,12 @@ p {
 	margin-bottom: 1.5%;
 }
 
+h3#reply-title.comment-reply-title {
+border-bottom: none;
+text-align: left;
+margin-top: 2%;
+}
+
 div#welcome{
 	width:31.06383%;
 	height:392px;
