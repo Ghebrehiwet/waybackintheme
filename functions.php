@@ -15,8 +15,8 @@ add_post_type_support("page", "excerpt");
 //menu
 $mainMenu = array(
 	"theme_location" => "main_menu",
-	"container" => "p",
-	"container_class" => "top-level-nav",
+	"container" => "ul",
+	"container_class" => "",
 	"container_id" => "main_menu",
 	"depth" => 1
 );

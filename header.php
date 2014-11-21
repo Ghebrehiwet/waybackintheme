@@ -18,9 +18,7 @@
 		
 		<nav>
 			<ul>
-				<li>
-					<p><?php wp_nav_menu(array('menu' => 'Main Menu')); ?></p>
-				</li>
+				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</ul>
 		</nav>
 	 
