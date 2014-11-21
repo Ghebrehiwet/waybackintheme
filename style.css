@@ -634,7 +634,7 @@ div.post-list img {
 	width:200px;
 	height::100px;
 }
-div.post-list p {
+div.post-list span p {
 	text-align:justify;
 	margin-left:10px;
 }
