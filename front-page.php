@@ -41,38 +41,10 @@ Template Name: Front Page
 				</ul>
 			</div>
 			<div id="testimonials">
-				<h2><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/testimonials/Testimonials">Testimonial</a></h2>
+				<span>Testimonials</span>
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
-                    <p> 
-					
-							<?php if(have_posts()): while(have_posts()): the_post(); ?>
-								 
-							 
-								<div id="post"><!--open #post -->
-												 
-										<div class="post"> 
-											 
-												<time datetime="<?php the_time('Y-m-d'); ?>'>
-													<?php the_time('M j'); ?>
-												</time>
-												by <?php the_author();?>,
-												<?php comments_number("0 comments", "1 comment", "% comments"); ?>
-											 
-											<div class="post-list">
-												<?php the_post_thumbnail(); ?>
-												<p><?php the_content(); ?></p>
-											</div>
-								</div>
-								 
-							
-							<?php endwhile; else: ?>
-								 
-							<?php endif; ?>
-											
-					
-					 
-					</p>
-                    
+                    <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi.</p>
+                    <a href="">Read More  >></a> 
 			</div>
 			<div id="ads">
 				Ads
