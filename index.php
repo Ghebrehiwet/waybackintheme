@@ -22,12 +22,12 @@
 					</div>
 				</div>
 		</div>
-	
+	<hr>
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
 	<?php endif; ?>
 <?php get_sidebar("widget"); ?>
 </div><!--close #pagecontent -->
-<hr>
+
 <?php get_footer(); ?>
 

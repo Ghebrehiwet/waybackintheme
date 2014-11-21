@@ -1,6 +1,6 @@
 <div id="primarypagesidebar">
 		<div id="widgets">
-			<?php get_sidebar("widget"); ?>
+			<?php dynamic_sidebar("widget"); ?>
 		</div>
 				  
 </div>
