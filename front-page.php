@@ -14,8 +14,11 @@ Template Name: Front Page
 
 			</div>
 			<div id="flexslider">
-				[metaslider id=113]
-
+				<?php
+			
+					echo do_shortcode("
+					[metaslider id=113]");
+				?>
 			</div>
 			<div id="button-container1">
 				<ul id="button-list1">
