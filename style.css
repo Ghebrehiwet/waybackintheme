@@ -228,6 +228,12 @@ text-align: left;
 margin-top: 2%;
 }
 
+h3.widget-title {
+margin: 1.5% 0;
+/* border-bottom: 2px double #900; */
+text-decoration: underline;
+}
+
 div#welcome{
 	width:31.06383%;
 	height:392px;
