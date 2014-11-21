@@ -41,7 +41,7 @@ Template Name: Front Page
 				</ul>
 			</div>
 			<div id="testimonials">
-				<span>Testimonials</span>
+				<span><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/testimonials/Testimonials">Testimonial</a></span>
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <p> 
 					
@@ -71,7 +71,7 @@ Template Name: Front Page
 							<?php endif; ?>
 											
 					
-					<a href=" http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/testimonials">Read More  >></a> 
+					 
 					</p>
                     
 			</div>
