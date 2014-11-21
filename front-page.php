@@ -45,9 +45,31 @@ Template Name: Front Page
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <p> 
 					
+							<?php if(have_posts()): while(have_posts()): the_post(); ?>
+								 
 							 
+								<div id="post"><!--open #post -->
+												 
+										<div class="post"> 
+											 
+												<time datetime="<?php the_time('Y-m-d'); ?>'>
+													<?php the_time('M j'); ?>
+												</time>
+												by <?php the_author();?>,
+												<?php comments_number("0 comments", "1 comment", "% comments"); ?>
+											 
+											<div class="post-list">
+												<?php the_post_thumbnail(); ?>
+												<p><?php the_content(); ?></p>
+											</div>
+								</div>
+								 
+							
+							<?php endwhile; else: ?>
+								 
+							<?php endif; ?>
 											
-					 
+					
 					 
 					</p>
                     
