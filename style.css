@@ -137,8 +137,7 @@ nav ul li a
 	display: block;
 	text-decoration: none;
 	color: #EEF2DC;
-	font-size: 1em;
-	text-align:center;
+	font-size: 1em; 
 }
 
 nav ul li:hover {
@@ -156,12 +155,12 @@ nav ul li > a
 {
 	display:block;
 	padding-right:40px; 
-	text-align:center;
 }
 
 nav ul li > a:first-child
 {
 	padding-left:10px;
+	padding-top: 10px;
 
 }
 nav ul ul
