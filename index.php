@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 <div id="pagecontent"><!--open #content -->
-	
-		 
-	<!--<article class="halfcol left">-->	
-		
+	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
 		<div id="post"><!--open #post -->
-				<?php if(have_posts()): while(have_posts()): the_post(); ?>		 
+						 
 				<div class="post">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					 <p><small>
