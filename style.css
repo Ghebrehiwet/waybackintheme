@@ -125,6 +125,7 @@ ul.children > li {
 display: block;
 z-index: 10000;
 background-color: blueviolet;
+padding-top: 7px;
 }
 
 nav > ul > li
