@@ -476,44 +476,41 @@ border-color: #aaab9c #fff #fff #ccc;
 {
 	width:100%;
 	height:100px;
-	background-color:blue;
+
 
 }
 
-#find-us, #facebook, #twitter
+ #facebook, #twitter
 {
 	width:33.33333%;
+	margin-left:11%;
 	height:100%;
 	float:left;
+	background-color:#B9D59D;
 }
 
-#find-us
-{
-background-color:white;
 
 
-}
-#find-us p
-{
-padding-top:38px;
-font-size:1.1em;
-
-
-}
 #facebook
 {
-background-color:cyan;
+
 
 
 }
 
 #twitter
 {
-background-color:maroon;
+
 
 
 }
+.social-networking
+{
+width:100%;
 
+
+
+}
 /*End vertical buttons*/
 
 
