@@ -662,7 +662,8 @@ margin-left:8%;
 }
 
 #pagecontent p {
-
+	margin-left:10px;
+	margin-right:10px;
 }
 
 #pagecontent #pagemaincontent {
