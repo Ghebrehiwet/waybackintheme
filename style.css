@@ -238,6 +238,16 @@ margin: 1.5% 0;
 /* border-bottom: 2px double #900; */
 text-decoration: underline;
 }
+blockquote {
+	padding: 25px 40px 15px;
+	border-top: 2px solid #bbb;
+	border-bottom: 2px solid #bbb;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 2;
+	color: #666;
+	margin: 30px 0px;
+}
 
 div#welcome{
 	width:34.042552%;
