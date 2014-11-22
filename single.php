@@ -5,18 +5,15 @@
 		<div id="post"><!--open #post --> 
 				<h2><?php the_title(); ?></h2>
 				<?php the_post_thumbnail(); ?>
-				
+				<?php the_content(); ?>
 				<p>Listed in: <?php the_category(", "); ?></p>
 				<?php if(get_the_tags()): ?>
 					<p><?php the_tags(); ?></p>
 				<?php endif; ?>
-			<small>Posted by
+			<small>Posted by <?php the_author();?>
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
 				 
-				by <?php the_author();?>,
-				
-				<?php the_content(); ?>
-				
+				 <h3>Comments</h3>
 				<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 			</small>
 			<?php the_author_posts_link(); ?>
