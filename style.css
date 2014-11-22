@@ -588,35 +588,6 @@ footer span.logo {
 	list-style: none;
 }
 
-#footer2
-{
-width:100%;
-height:60px;
-clear:both;
-
-
-
-}
-#footer2 p
-{
-float:left;
-
-margin-top:2%;
-font-weight:bold;
-
-
-}
-
-#footer2 p:first-child
-{
-margin-left:8%;
-
-}
-#copyright, #way-back-inn
-{
-	margin-right:14%;
-
-}
 
 
 
