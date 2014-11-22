@@ -283,7 +283,7 @@ img.flexslider
 
 div#ads{
 	width:97.872341%;
-	margin-left:1.0638295%;
+	/*margin-left:1.0638295%;*/
 	height:140px;
 	background-color:#FFFEF9;
 	clear:both;
@@ -309,13 +309,13 @@ height:140px;
 margin-right:2.127659%;
 }
 
-.ads
+/*.ads
 {
 width:100%;
 margin-top:6%;
 
 
-}
+}*/
 
 
 /* Begin horizontal button list */
