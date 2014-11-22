@@ -7,8 +7,7 @@
 						<li id="button-four"><a href="#"><p>Need Help?</p></a></li>
 						<li id="button-five"><a href="#"><p>Our Mission</p></a></li>
 						<li id="button-six">
-							<div id="social-networking">
-								<div id="find-us"><p><strong>Find Us:</strong></p></div>
+							<div id="social-networking"> 
 								<div id="facebook"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
 							<div id="twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
 							</div>

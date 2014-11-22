@@ -457,28 +457,48 @@ background-color:#EEF2DC;
 border-color: #aaab9c #fff #fff #ccc;
 }
 
-#sidebar-social-networking
+#social-networking
 {
 	width:100%;
 	height:100px;
-	margin-top:60px;
-
+	background-color:blue;
 
 }
 
-#sidebar-facebook, #sidebar-twitter
+#find-us, #facebook, #twitter
 {
 	width:33.33333%;
-	margin-left:11%;
 	height:100%;
 	float:left;
-	background-color:#B9D59D;
 }
 
-.social-networking
+#find-us
 {
-	width:100%; 
+background-color:white;
+
+
 }
+#find-us p
+{
+padding-top:38px;
+font-size:1.1em;
+
+
+}
+#facebook
+{
+background-color:cyan;
+
+
+}
+
+#twitter
+{
+background-color:maroon;
+
+
+}
+
 /*End vertical buttons*/
 
 
