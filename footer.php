@@ -16,6 +16,12 @@
                 </div>
 		
 			</footer>
+			<div id="footer2">
+				<p id="copyright">Copyright All Rights Reserved</p>
+				<p id="way-back-inn">Way Back Inn 2014</p>
+				<p id="privacy">Privacy Policy</p>
+
+			</div>
 	<?php wp_footer(); ?>
 		</div><!-- close #main-content -->
 	</div><!-- close #wrapper-->
