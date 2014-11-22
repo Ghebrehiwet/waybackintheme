@@ -561,7 +561,7 @@ div#testimonials p {
 div#ads{
 	width:100%;
 	height:160px;
-	background-color:grey;
+	background-color: rgb(185, 213, 157);
 	clear:both;
 }
 footer{
