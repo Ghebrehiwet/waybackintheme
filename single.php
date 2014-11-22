@@ -5,8 +5,8 @@
 		<div id="post"><!--open #post --> 
 				<h2><?php the_title(); ?></h2>
 				<?php the_post_thumbnail(); ?>
-				<p>Listed in: <?php the_category(", "); ?></p>
-				<small>Posted by <?php the_author();?></small>
+				<p>Listed in: <?php the_category(", "); ?><small>Posted by <?php the_author();?></small></p>
+				
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
 				
 				<?php the_content(); ?>
