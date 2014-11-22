@@ -585,7 +585,8 @@ footer span.logo {
 	float:left;
 	overflow:hidden;
 	padding:5px;
-	background-color: #ddd58e;
+	/*background-color: #ddd58e;*/
+	background-color: #EEF2DC;
 }
 
 #primarypagesidebar {
