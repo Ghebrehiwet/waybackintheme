@@ -740,6 +740,10 @@ div.post-list div.text-right{
 	float: right;
 }
 
+div#widgets {
+    text-align: center;
+}
+
 
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
 		
