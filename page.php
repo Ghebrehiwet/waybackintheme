@@ -7,6 +7,7 @@
 		
 			<h2><?php the_title(); ?></h2>
 			<?php the_post_thumbnail(); ?>
+			<img src="" alt="">
 			<p><?php the_content();?><p>
 		<?php endwhile; else: ?>
 			<p>Sorry, we couldn't find your page!</p>

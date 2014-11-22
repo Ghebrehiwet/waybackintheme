@@ -661,6 +661,14 @@ margin-left:8%;
 	text-align: center;
 }
 
+#pagecontent img {
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+	width:200px;
+	height::100px;
+}
+
 #pagecontent p {
 	margin-left:10px;
 	margin-right:10px;
