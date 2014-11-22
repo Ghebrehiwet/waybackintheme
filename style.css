@@ -125,7 +125,6 @@ ul.children > li {
 display: block;
 z-index: 10000;
 background-color: blueviolet;
-padding-top: 7px;
 }
 
 nav > ul > li
@@ -139,6 +138,7 @@ nav ul li a
 	text-decoration: none;
 	color: #EEF2DC;
 	font-size: 1em;
+	text-align:center;
 }
 
 nav ul li:hover {
@@ -154,8 +154,9 @@ nav ul li a:hover
 }
 nav ul li > a
 {
-display:block;
-padding-right:40px;
+	display:block;
+	padding-right:40px; 
+	text-align:center;
 }
 
 nav ul li > a:first-child
