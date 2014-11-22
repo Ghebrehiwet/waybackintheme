@@ -266,6 +266,21 @@ div#welcome p::first-letter
 
 
 }
+
+div#flexslider{
+	width:65.957446%;
+	height:400px;
+	background-color:#B9D59D;
+
+	margin-bottom:20px;
+	float:right;
+}
+img.flexslider
+{
+	width:100%;
+
+}
+
 div#ads{
 	width:97.872341%;
 	margin-left:1.0638295%;
