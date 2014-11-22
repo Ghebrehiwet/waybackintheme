@@ -16,8 +16,8 @@
 						<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 					 </p></small>
 					<div class="post-list">
-						<p class="image-left"><?php the_post_thumbnail(); ?></p>
-						<p class="text-right"><?php the_content(); ?></p>
+						<div class="image-left"><?php the_post_thumbnail(); ?></div>
+						<div class="text-right"><?php the_content(); ?></div>
 					</div>
 				</div>
 		</div>

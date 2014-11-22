@@ -653,14 +653,13 @@ div.post-list a {
 	bottom:20px;		
 }*/
 
- div.post-list .image-left { 
-	margin-left:10px;
+ div.post-list div.image-left { 
 	float: left;
 }
 
-div.post-list .text-right{ 
-	margin-left:10px;
-	float: left;
+div.post-list div.text-right{ 
+	margin-left:5px;
+	float: right;
 }
 
 
