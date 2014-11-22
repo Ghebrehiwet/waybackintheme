@@ -47,7 +47,17 @@ Template Name: Front Page
                     <a href="">Read More  >></a> 
 			</div>
 			<div id="ads">
-				 ads
+					<div id="amazon-smile">
+						<img src="<?php bloginfo('template_url'); ?>/images/amazon-smile.jpg" class="ads" alt="logo">
+					</div>
+
+					<div id="volunteer-match">
+						<img src="<?php bloginfo('template_url'); ?>/images/volunteer-match.jpg" class="ads" alt="logo">
+					</div>
+
+					<div id="shop-with-scrip">
+						<img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip">
+					</div> 
 			</div> 
 <?php get_footer(); ?>
 
