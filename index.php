@@ -1,26 +1,26 @@
 <?php get_header(); ?>
-
-	<?php if(have_posts()): while(have_posts()): the_post(); ?>
-		 <div id="pagecontent"><!--open #content -->
+<div id="pagecontent"><!--open #content -->
+	
+		 
 	<!--<article class="halfcol left">-->	
 		
-			<div id="post"><!--open #post -->
-							 
-					<div class="post">
-							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						 <p><small>
-							<time datetime="<?php the_time('Y-m-d'); ?>">
-								<?php the_time('M j, Y'); ?>
-							</time>
-							by <?php the_author();?>,
-							<?php comments_number("0 comments", "1 comment", "% comments"); ?>
-						 </p></small>
-						<div class="post-list">
-							<div class="image-left"><?php the_post_thumbnail(); ?></div>
-							<div class="text-right"><?php the_content(); ?></div>
-						</div>
+		<div id="post"><!--open #post -->
+				<?php if(have_posts()): while(have_posts()): the_post(); ?>		 
+				<div class="post">
+						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+					 <p><small>
+						<time datetime="<?php the_time('Y-m-d'); ?>">
+							<?php the_time('M j, Y'); ?>
+						</time>
+						by <?php the_author();?>,
+						<?php comments_number("0 comments", "1 comment", "% comments"); ?>
+					 </p></small>
+					<div class="post-list">
+						<div class="image-left"><?php the_post_thumbnail(); ?></div>
+						<div class="text-right"><?php the_content(); ?></div>
 					</div>
-			</div>
+				</div>
+		</div>
 	<hr>
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
