@@ -62,6 +62,17 @@ function my_register_sidebars() {
 		)
 	);
 	
+	/* Register the footer widget area. */
+	register_sidebar(
+		array(
+			'id' => 'managerinfo',
+			'name' => __( 'Footer Widget Area 2' ),
+			'before_widget' => '<span id="%1$s" class="widget %2$s">',
+			'after_widget' => '</span>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>'
+		)
+	);
 	
 	/* Repeat register_sidebar() code for additional sidebars. */
 }

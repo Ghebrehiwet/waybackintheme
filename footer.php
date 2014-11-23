@@ -8,7 +8,7 @@
                   <?php get_sidebar("footer"); ?> 
                 </div>
                 <div>
-                	<span><?php get_sidebar("footer"); ?></span> 
+                	<?php get_sidebar("managerinfo"); ?> 
                 </div>
 		
 			</footer>
