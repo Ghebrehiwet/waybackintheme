@@ -8,11 +8,7 @@
                   <?php get_sidebar("footer"); ?> 
                 </div>
                 <div>
-                	<span>Program Manager: Tonya Ward</span>
-                	<span>Services: (206)-682-7382</span>
-                	<span>Information: (206)217-6623</span>
-                	<span>149 Park Ave North</span>
-                	<span>Suite B</span>
+                	<span><?php get_sidebar("footer"); ?></span> 
                 </div>
 		
 			</footer>
