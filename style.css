@@ -750,6 +750,15 @@ div#widgets {
 }
 
 
+/*  404.php */
+
+.main_content.left {
+width: 67%;
+padding: 2%;
+background-color: floralwhite;
+}
+
+
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
 		
 div.hentry {
