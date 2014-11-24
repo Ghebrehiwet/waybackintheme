@@ -6,7 +6,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
 
-			<header class="archive-header">
+			 
 				<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentyfourteen' ), single_tag_title( '', false ) ); ?></h1>
 
 				<?php
@@ -16,7 +16,7 @@ get_header(); ?>
 						printf( '<div class="taxonomy-description">%s</div>', $term_description );
 					endif;
 				?>
-			</header><!-- .archive-header -->
+			 
 
 			<?php
 					// Start the Loop.
