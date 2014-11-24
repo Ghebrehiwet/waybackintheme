@@ -765,6 +765,11 @@ background-color: floralwhite;
 }
 
 
+nav.post-nav {
+	display: none;
+}
+
+
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
 		
 div.hentry {
