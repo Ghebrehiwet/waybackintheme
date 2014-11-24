@@ -124,7 +124,7 @@ display: inline-block;
 ul.children > li {
 display: block;
 z-index: 10000;
-background-color: #B9D59D;
+background-color: rgba(43,98,29,0.8);
 }
 
 nav > ul > li
