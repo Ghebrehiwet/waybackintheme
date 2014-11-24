@@ -1,5 +1,8 @@
 <?php get_header(); ?>
 <div id="pagecontent"><!--open #content -->
+
+	<p id="bread-crumb">Home > About</p>
+
 	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
 		<div id="post"><!--open #post -->
 						 

@@ -6,6 +6,9 @@
 		<div id="pagecontent">
 		
 			<h2><?php the_title(); ?></h2>
+			
+			<p id="bread-crumb">Home > About</p>
+			
 			<?php the_post_thumbnail(); ?>
 			<img src="" alt="">
 			<p><?php the_content();?><p>
