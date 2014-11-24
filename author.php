@@ -58,7 +58,5 @@ get_header(); ?>
 		</div><!-- #content -->
 	 
 
-<?php
-get_sidebar( 'widget' );
- 
-get_footer();
+<?php get_sidebar("widget"); ?>
+<?php get_footer(); ?>
