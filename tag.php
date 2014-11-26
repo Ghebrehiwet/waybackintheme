@@ -36,12 +36,12 @@ get_header(); ?>
 				else :
 					// If no content, include the "No posts found" template.
 					get_template_part( 'content', 'none' );
-<?php get_sidebar("widget"); ?>
+
 				endif;
 				
 			?>
 			
 
 		</div><!-- #content -->
-	 
+	 <?php get_sidebar("widget"); ?>
 <?php get_footer(); ?>
