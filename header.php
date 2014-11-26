@@ -18,7 +18,7 @@
 		
 		<nav>
 			 
-				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+				<?php wp_nav_menu("main_menu"); ?>
 			 
 		</nav>
 	 
