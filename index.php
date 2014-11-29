@@ -26,6 +26,7 @@
 					</div>
 				</div>
 		</div>
+		<?php comments_template(); ?>
 	<hr>
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
