@@ -19,7 +19,7 @@
 						</time>
 						by <?php the_author();?>,
 						<?php comments_number("0 comments", "1 comment", "% comments"); ?>
-					 </p></small>
+					 </small></p>
 					<div class="post-list">
 						<div class="image-left"><?php the_post_thumbnail(); ?></div>
 						<div class="text-right"><?php the_content(); ?></div>
