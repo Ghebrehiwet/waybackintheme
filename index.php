@@ -25,9 +25,9 @@
 						<div class="text-right"><?php the_content(); ?></div>
 					</div>
 				</div>
-				<hr>
+				
 		</div>
-		 
+		 <hr>
 	
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
