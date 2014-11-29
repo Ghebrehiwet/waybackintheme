@@ -1,7 +1,12 @@
 <?php get_header(); ?>
 <div id="pagecontent"><!--open #content -->
 
-	<p id="bread-crumb">Home > About</p>
+	<p id="bread-crumb">
+		<?php if(function_exists('bcn_display'))
+		{
+			bcn_display();
+		}?>
+	</p>
 
 	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
 		<div id="post"><!--open #post -->

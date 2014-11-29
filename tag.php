@@ -32,14 +32,16 @@ get_header(); ?>
 					endwhile;
 					// Previous/next page navigation.
 					twentyfourteen_paging_nav();
-
+	
 				else :
 					// If no content, include the "No posts found" template.
 					get_template_part( 'content', 'none' );
 
 				endif;
+				
 			?>
+			
+
 		</div><!-- #content -->
-	 
-<?php get_sidebar("widget"); ?>
+	 <?php get_sidebar("widget"); ?>
 <?php get_footer(); ?>

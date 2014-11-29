@@ -3,10 +3,10 @@ Theme Name:  Waybackinntheme
 Theme URI:  Localhost/
 Description:  Custom WP theme
 Author: Max and Ghebre
-Author URI:  
+Author URI:
 Version:  1.0
 
-Tags: 
+Tags:
 
 General comments (optional).
  */
@@ -19,7 +19,7 @@ html{
 	margin:0 auto;
 }
 body {
-background-color:cyan;
+background-color:green;
 font-size:1em;
 
 }
@@ -86,7 +86,7 @@ nav {
 	-webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
 }
 
 /*.menu {
@@ -137,7 +137,7 @@ nav ul li a
 	display: block;
 	text-decoration: none;
 	color: #EEF2DC;
-	font-size: 1em; 
+	font-size: 1em;
 }
 
 nav ul li:hover {
@@ -154,7 +154,7 @@ nav ul li a:hover
 nav ul li > a
 {
 	display:block;
-	padding-right:40px; 
+	padding-right:40px;
 }
 
 nav ul li > a:first-child
@@ -336,11 +336,9 @@ margin-top:6%;
 
 #button-container1
 {
-<<<<<<< HEAD
-background: #2B621DC;
-=======
+
 background-color:#B9D59D;
->>>>>>> origin/master
+
 text-transform: uppercase;
 width:100%;
 height:100px;
@@ -417,16 +415,16 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #button-container2
 {
-<<<<<<< HEAD
+
 width: 31.914893%;
 height:340px;
-background-color:#2B621DC;
-=======
+
+
 background-color:#B9D59D;
 width: 31.914893%;
 height:340px;
 
->>>>>>> origin/master
+
 margin-top:20px;
 float:left;
 text-transform: uppercase;
@@ -554,7 +552,7 @@ div#testimonials a {
 	text-align:center;
 	position:absolute;
 	right:0px;
-	bottom:20px;		
+	bottom:20px;
 }
 
 #testimonials p {
@@ -739,14 +737,14 @@ div.post-list a {
 	text-align:center;
 	position:absolute;
 	right:0px;
-	bottom:20px;		
+	bottom:20px;
 }*/
 
- div.post-list div.image-left { 
+ div.post-list div.image-left {
 	float: left;
 }
 
-div.post-list div.text-right{ 
+div.post-list div.text-right{
 	margin-left:5px;
 	float: right;
 }
@@ -773,79 +771,84 @@ nav.post-nav {
 
 
 
+<<<<<<< HEAD
 
 
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
 		
+=======
+/*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */
+
+>>>>>>> origin/master
 div.hentry {
 	margin-bottom: 20px;
 }
 
 .wp-caption-text  {
 }
-	
+
 .alignnone {
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
-	
+
 .alignleft {
 	float: left;
-	margin: 0 10px 10px 0px ; 
+	margin: 0 10px 10px 0px ;
 }
-	
+
 .alignright {
 	float: right;
-	margin: 0 0px 10px 10px; 
+	margin: 0 0px 10px 10px;
 }
-	
-#previous_image a, 
+
+#previous_image a,
 #next_image a {
-	border-bottom: none; 
+	border-bottom: none;
 }
-	
-.attachment-thumbnail, 
+
+.attachment-thumbnail,
 .size-thumbnail {
 	padding: 5px;
 	border: 1px solid #ddd;
 }
-	
+
 #gallery-box {
 	margin-bottom: 25px;
 }
-	
+
 #comments-box {
 	clear: both;
 }
-	
-	
+
+
 /* COMMENTS */
 
 #comments-head {
 	border-bottom: 1px solid #ddd;
 }
-	
+
 #comments-box ol {
 	padding: 0;
 }
-	
+
 #comments-box ol li {
 	list-style-type:none;
 	padding: 10px 0;
 }
-	
+
 #comments-box ul li {
 	list-style-type:none;
 }
-	
+
 #comments-box cite {
 	font-weight:bold;
 	font-size: 13px;
 }
-	
+
 .comment-author {
 	margin-bottom: 2px;
 }
-	
+
 .comment p {
 	clear:both
 }
@@ -853,15 +856,15 @@ div.hentry {
 .reply {
 	font-size:10px;
 }
-	
+
 .comment-meta {
 	font-size:10px;
 }
-	
+
 #commentform p {
 	font-size: 12px;
 }
-	
+
 .avatar {
 	float: left;
 	margin: 0 10px 10px 0;
@@ -871,7 +874,7 @@ img.avatar.avatar-20.photo {
 max-width: 10%;
 height: 2%;
 }
-	
+
 
 #content img.print {
 	float: right;
@@ -879,11 +882,11 @@ height: 2%;
 	clear:both;
 	margin-bottom: 20px;
 }
-		
-#content object { 
-	margin: 0 0 10px 0px ; 
+
+#content object {
+	margin: 0 0 10px 0px ;
 }
-	
+
 #content pre {
 	max-height: 300px;
 	font-size: 12px;
@@ -891,15 +894,15 @@ height: 2%;
 	margin: 10px 0px;
 	overflow: auto;
 }
-	
 
-	
+
+
 .clear {
 	clear:both;
 }
 
 
-					
+
 /* POST ITEMS */
 .post-box {
 	border-bottom:1px solid #DDDDDD;
@@ -917,28 +920,28 @@ height: 2%;
 .gallery {
 	margin: auto;
 }
-	
+
 .gallery-item {
 	float: left;
 	margin: 5px 3px 5px 0;
 	text-align: center;
 }
-	
-#content p.smallattachment a, 
+
+#content p.smallattachment a,
 #content dl.gallery-item a {
 	border-bottom: none;
 }
-	
+
 .gallery img {
 }
-	
+
 .gallery-caption {
 	margin-left: 0;
 }
-	
+
 #content p.wp-caption-text {
 	margin-top: 10px;
 	font-size: 12px;
 }
-		
-/*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */	
+
+/*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */
