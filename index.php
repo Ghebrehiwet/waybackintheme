@@ -8,9 +8,9 @@
 		}?>
 	</p>
 
-	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
+	<?php if (have_posts()) : ?>
 		<div id="post"><!--open #post -->
-						 
+			<?php while (have_posts()) : the_post(); ?>			 
 				<div class="post">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					 <p><small>
@@ -25,9 +25,10 @@
 						<div class="text-right"><?php the_content(); ?></div>
 					</div>
 				</div>
+				<hr>
 		</div>
-		<?php comments_template(); ?>
-	<hr>
+		 
+	
 	<?php endwhile; else: ?>
 		<p>Sorry no posts to display</p>
 	<?php endif; ?>
