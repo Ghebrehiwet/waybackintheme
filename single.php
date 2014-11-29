@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
 <div id="pagecontent"><!--open #content -->
-	<?php if(have_posts()): while(have_posts()): the_post(); ?>
-		<div id="post"><!--open #post --> 
+	<?php if (have_posts()) : ?>
+		<div id="post"><!--open #post -->
+			<?php while (have_posts()) : the_post(); ?>
 				<h2><?php the_title(); ?></h2>
-				<?php the_post_thumbnail(); ?>
 				<p>Listed in: <?php the_category(", "); ?><small> Posted by <?php the_author();?></small></p>
-				
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
+				<?php the_post_thumbnail(); ?> 
 				
 				<?php the_content(); ?>
 				
@@ -15,9 +15,7 @@
 					<p><?php the_tags(); ?></p>
 				<?php endif; ?>
 				
-				<h3>Comments</h3>
-			
-				 
+				<h3>Comments</h3> 
 				 
 				<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 			
