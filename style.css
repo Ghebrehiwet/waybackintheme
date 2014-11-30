@@ -754,7 +754,7 @@ div#widgets {
 	font-size:1.2em;
 }
 
-div#div-comment-3.comment-body:nth-child(odd) {
+ol.comment-list li:nth-child(odd) {
     background-color: beige;
 }
 
