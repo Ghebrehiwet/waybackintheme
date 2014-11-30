@@ -5,7 +5,7 @@
 		<div id="post"><!--open #post -->
 			<?php while (have_posts()) : the_post(); ?>
 				<h2><?php the_title(); ?></h2>
-				<p>Listed in: <?php the_category(", "); ?><small> Posted by <?php the_author();?></small></p>
+				<p>Listed in: <?php the_category(", "); ?><small> Posted by <?php the_author_posts_link();?></small></p>
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
 				<?php the_post_thumbnail(); ?> 
 				
