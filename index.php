@@ -26,7 +26,7 @@
 								<div class="post-list"> 
 									<div class="image-left"><?php the_post_thumbnail(); ?></div>
 									<div class="text-right"><?php the_content(); ?></div>
-									 <?php the_content('More &raquo;'); ?>
+								 
 									<?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
 								</div>
 							
