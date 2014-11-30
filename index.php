@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-<div id="pagecontent"><!--open #content -->
+
+
+<div id="main-content"> 
 
 	<p id="bread-crumb">
 		<?php if(function_exists('bcn_display'))
@@ -8,9 +10,8 @@
 		}?>
 	</p>
 
-	<?php if (have_posts()) : ?>
-		<div id="post"><!--open #post -->
-			<?php while (have_posts()) : the_post(); ?>			 
+	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
+			<div id="post"><!--open #post -->			
 				<div class="post">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 					 <p><small>
@@ -25,8 +26,9 @@
 						<div class="text-right"><?php the_content(); ?></div>
 					</div>
 				</div>
+			
 				
-		</div>
+			</div>
 		 <hr>
 	
 	<?php endwhile; else: ?>
