@@ -724,7 +724,7 @@ margin-left:8%;
 
 
 /*styles for index.html */
-/*div.post-list span {
+div.post-list span {
 	width:100%;
 	text-align:center;
 	display:block;
@@ -743,7 +743,7 @@ div.post-list a {
 	position:absolute;
 	right:0px;
 	bottom:20px;
-}*/
+}
 
  div.post-list div.image-left {
 	float: left;
