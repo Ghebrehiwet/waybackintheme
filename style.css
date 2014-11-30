@@ -777,6 +777,11 @@ div#post ul.post_nav li a {
 	color: white;
 }
 
+p#bread-crumb span a:hover {
+	background-color: #fff;
+	color: white;
+}
+
 
 /*  404.php */
 
