@@ -7,15 +7,16 @@
 	<?php if (have_posts()) : ?>
 			<div id="post"><!--open #post -->			
 				<div class="post">
-					<?php while (have_posts()) : the_post(); ?>
-						 
-						
-							<p id="bread-crumb">
+				<p id="bread-crumb">
 								<?php if(function_exists('bcn_display'))
 								{
 									bcn_display();
 								}?>
 							</p>
+					<?php while (have_posts()) : the_post(); ?>
+						 
+						
+							
 							
 							<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2> 
 								 	
