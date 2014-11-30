@@ -754,8 +754,8 @@ div#widgets {
 	font-size:1.2em;
 }
 
-div#div-comment-3:nth-child(even) { 
-    background-color: aliceblue; 
+div#div-comment-3.comment-body:nth-child(odd) {
+    background-color: beige;
 }
 
 div#div-comment-3 { 
