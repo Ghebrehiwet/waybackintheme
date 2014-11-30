@@ -4,15 +4,18 @@
 	<?php if (have_posts()) : ?>
 		<div id="post"><!--open #post -->
 			<?php while (have_posts()) : the_post(); ?>
-				<h2><?php the_title(); ?></h2>
-				
-				<p id="bread-crumb">
+			
+			<p id="bread-crumb">
 					<?php if(function_exists('bcn_display'))
 						{
 							bcn_display();
 						}
 					?>
 				</p>
+			
+				<h2><?php the_title(); ?></h2>
+				
+				
 				
 				<p>Listed in: <?php the_category(", "); ?><small> Posted by <?php the_author_posts_link();?></small></p>
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
