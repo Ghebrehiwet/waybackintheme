@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-<div id="main-content"> 
+<div id="pagecontent"> 
 
 	<p id="bread-crumb">
 		<?php if(function_exists('bcn_display'))
