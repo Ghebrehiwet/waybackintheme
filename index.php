@@ -2,22 +2,25 @@
 
 
 <div id="pagecontent">  
-	<p id="bread-crumb">
-		<?php if(function_exists('bcn_display'))
-		{
-			bcn_display();
-		}?>
-	</p>
+	
 
 	<?php if (have_posts()) : ?>
 			<div id="post"><!--open #post -->			
 				<div class="post">
 					<?php while (have_posts()) : the_post(); ?>
-						<div class="post-box">
+						 
+						
+							<p id="bread-crumb">
+								<?php if(function_exists('bcn_display'))
+								{
+									bcn_display();
+								}?>
+							</p>
+							
 							<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2> 
 								 	
 								
-								<div class="post-list"> 
+								 
 									 <p>Posted on <small>
 									<time datetime="<?php the_time('Y-m-d'); ?>">
 										<?php the_time('M j, Y'); ?>
@@ -25,13 +28,13 @@
 									by <?php the_author();?> with
 									<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 								 </small></p>
-									<div class="image-left"><?php the_post_thumbnail(); ?></div>
-									<div class="text-right"><?php the_content(); ?></div>
+									<?php the_post_thumbnail(); ?>
+									<?php the_content(); ?>
 								 
 									<?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
-								</div>
+								 
 							
-						</div>
+						 
 					</hr>
 				
 				</div>
@@ -43,7 +46,7 @@
 	
 			<?php endwhile; ?> 
 							
-		 </div>
+	 
 				
 		<?php endif; ?>
 	
