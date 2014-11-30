@@ -758,7 +758,11 @@ ol.comment-list li:nth-child(odd) {
     background-color: beige;
 }
 
-div#div-comment-3 { 
+ol.comment-list li:nth-child(even) {
+    background-color: gainsboro;
+}
+
+ol.comment-list li { 
     margin-bottom:2%; 
 }
 
