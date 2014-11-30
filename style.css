@@ -160,7 +160,7 @@ background-color: rgba(43,98,29,0.8);
 .menu-main-menu-container ul li > a
 {
 
-	padding-right:40px;
+	padding-right:20px;
 
 
 
@@ -734,12 +734,12 @@ margin-left:8%;
 
 #categories-3 ul {
  list-style: none;
-}  
+}
 
 
 #meta-3 ul {
  list-style: none;
-}  
+}
 
 /*styles for index.html */
 div.post-list span {
