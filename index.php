@@ -47,7 +47,8 @@
 				
 		<?php endif; ?>
 	
-</div><!--close #pagecontent -->
+
 <?php get_sidebar("widget"); ?>
+</div><!--close #pagecontent -->
 <?php get_footer(); ?>
 
