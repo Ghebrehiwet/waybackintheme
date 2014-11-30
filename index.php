@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
 
-<div id="pagecontent"> 
-	<h2><?php the_title(); ?></h2>
+<div id="pagecontent">  
 	<p id="bread-crumb">
 		<?php if(function_exists('bcn_display'))
 		{
@@ -10,10 +9,10 @@
 		}?>
 	</p>
 
-	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
+	<?php if(have_posts()); ?> 
 			<div id="post"><!--open #post -->			
 				<div class="post">
-						
+					<?php while(have_posts()): the_post(); ?>	
 					 <p><small>
 						<time datetime="<?php the_time('Y-m-d'); ?>">
 							<?php the_time('M j, Y'); ?>
