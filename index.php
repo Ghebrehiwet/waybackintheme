@@ -6,7 +6,7 @@
 
 	<?php if (have_posts()) : ?>
 			<div id="post"><!--open #post -->			
-				 
+				<div class="post">
 				<p id="bread-crumb">
 								<?php if(function_exists('bcn_display'))
 								{
@@ -39,7 +39,7 @@
 					</hr>
 				
 				</div>
-				 
+			</div> 
 	
 			<?php endwhile; ?> 
 				 <nav class="post-nav">
