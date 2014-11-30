@@ -19,8 +19,7 @@
 								 <p>Posted on <small>
 									<time datetime="<?php the_time('Y-m-d'); ?>">
 										<?php the_time('M j, Y'); ?>
-									</time> in 
-									<p class="cat"><?php the_category(', ') ?></p>
+									</time> in	<p class="cat"><?php the_category(', ') ?></p>
 									by <?php the_author();?> with
 									<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 								 </small></p>
