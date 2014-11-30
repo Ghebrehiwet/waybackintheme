@@ -39,14 +39,14 @@
 					</hr>
 				
 				</div>
-			</div> 
-	
-			<?php endwhile; ?> 
-				 <nav class="post-nav">
+				  <nav class="post-nav">
 						<p class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></p>
 						<p class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></p>
 				 </nav>
-					<?php comments_template(); ?>				
+					<?php comments_template(); ?>
+	
+			<?php endwhile; ?> 
+							
 	 
 				
 		<?php endif; ?>
