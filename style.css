@@ -723,6 +723,15 @@ margin-left:8%;
 }
 
 
+#categories-3 ul {
+ list-style: none;
+}  
+
+
+#media-3 ul {
+ list-style: none;
+}  
+
 /*styles for index.html */
 div.post-list span {
 	width:100%;
