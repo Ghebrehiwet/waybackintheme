@@ -88,12 +88,17 @@ nav {
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+div.menu-main-menu-container
+{
+width:100%;
+height:40px;
 
+}
 /*.menu {
 padding-top: 7px;
 }*/
 
-nav ul
+.menu-main-menu-container ul
 {
 
   padding: 0px;
@@ -103,67 +108,73 @@ nav ul
   display: inline-block;
 }
 
-nav > li > ul.sub-nav
+.menu-main-menu-container > li > ul.sub-menu
 {
 	min-width: 10em;
 	background-color: #f4f4f4;
 	border: 1px solid #CCC;
 }
 
-.sub-nav li p
+.sub-menu li p
 {
 padding-top:10px;
 
 }
-nav ul li
+.menu-main-menu-container ul li
 {
-height:100%;
-display: inline-block;
+height:40px;
+
 }
 
-ul.children > li {
+/*ul.children > li {
 display: block;
 z-index: 10000;
 background-color: rgba(43,98,29,0.8);
 }
-
-nav > ul > li
+*/
+.menu-main-menu-container > ul > li
 {
 	display: inline-block;
 }
 
-nav ul li a
+.menu-main-menu-container ul li a
 {
 	display: block;
 	text-decoration: none;
 	color: #EEF2DC;
 	font-size: 1em;
+
 }
 
-nav ul li:hover {
+.menu-main-menu-container ul li:hover {
 
 	height:40px;
 }
-nav ul li a:hover
+.menu-main-menu-container ul li a:hover
 {
 	background-color:#EEF2DC;
 	color:#2B621D;
 	height:40px;
 
 }
-nav ul li > a
+.menu-main-menu-container ul li > a
 {
-	display:block;
+
 	padding-right:40px;
+
+
+
 }
 
-nav ul li > a:first-child
+
+.menu-main-menu-container ul li > a:first-child
 {
-	padding-left:10px;
-	padding-top: 10px;
+	padding-left:40px;
+
+
 
 }
-nav ul ul
+.menu-main-menu-container ul ul
 {
   display: none;
   position: absolute;
@@ -178,28 +189,28 @@ nav ul ul li
 
 }
 
-nav ul ul li a p
+.menu-main-menu-container ul ul li a p
 {
 
 
 }
-nav ul li:hover > ul
+.menu-main-menu-container ul li:hover > ul
 {
 	display: block;
 }
 
-nav ul ul > li
+.menu-main-menu-container ul ul > li
 {
 	position: relative;
 }
 
-nav ul ul > li a
+.menu-main-menu-container ul ul > li a
 {
 	height: 40px;
 
 }
 
-nav ul ul > li a:hover
+.menu-main-menu-container ul ul > li a:hover
 {
 	background-color:#EEF2DC;
 	color:#2B621D;
@@ -207,9 +218,7 @@ nav ul ul > li a:hover
 
 }
 
-p.top-level-nav {
-	padding-top:10px;
-}
+
 /*End Nav*/
 
 /*TYPOGRAPHY*/
@@ -657,7 +666,7 @@ margin-left:8%;
 	overflow:hidden;
 	padding:5px;
 	/*background-color: #ddd58e;*/
-	background-color: #fff; 
+	background-color: #fff;
 	margin-left:1.0638295%;
 	margin-bottom:10px;
 	margin-top:10px;
@@ -665,7 +674,7 @@ margin-left:8%;
 
 #primarypagesidebar {
 	width:23.404255%;
-	float:right; 
+	float:right;
 	margin-top:10px;
 }
 
@@ -675,7 +684,7 @@ margin-left:8%;
 	text-align: center;
 }
 
-#pagecontent h2 { 
+#pagecontent h2 {
 	text-align: center;
 }
 
@@ -776,8 +785,8 @@ ol.comment-list li:nth-child(even) {
     background-color: gainsboro;
 }
 
-ol.comment-list li { 
-    margin-bottom:2%; 
+ol.comment-list li {
+    margin-bottom:2%;
 }
 
 div#post ul.post_nav li {
@@ -813,15 +822,15 @@ nav.post-nav {
 
 
 
-<<<<<<< HEAD
 
 
-/*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */		
-		
-=======
+
+
+
+
 /*  ---------------  BEGIN WORDPRESS-GENERATED SELECTORS  ---------------  */
 
->>>>>>> origin/master
+
 div.hentry {
 	margin-bottom: 20px;
 }
