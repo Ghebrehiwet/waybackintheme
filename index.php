@@ -16,14 +16,15 @@
 						<div class="post-box">
 							<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2> 
 								 	
-								 <p>Posted on <small>
+								
+								<div class="post-list"> 
+									 <p>Posted on <small>
 									<time datetime="<?php the_time('Y-m-d'); ?>">
 										<?php the_time('M j, Y'); ?>
 									</time> in	<p class="cat"><?php the_category(', ') ?></p>
 									by <?php the_author();?> with
 									<?php comments_number("0 comments", "1 comment", "% comments"); ?>
 								 </small></p>
-								<div class="post-list"> 
 									<div class="image-left"><?php the_post_thumbnail(); ?></div>
 									<div class="text-right"><?php the_content(); ?></div>
 								 
