@@ -9,10 +9,10 @@
 		}?>
 	</p>
 
-	<?php if(have_posts()); ?> 
+	<?php if(have_posts()): while(have_posts()): the_post(); ?> 
 			<div id="post"><!--open #post -->			
 				<div class="post">
-					<?php while(have_posts()): the_post(); ?>	
+						
 					 <p><small>
 						<time datetime="<?php the_time('Y-m-d'); ?>">
 							<?php the_time('M j, Y'); ?>
