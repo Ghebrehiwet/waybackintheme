@@ -34,14 +34,8 @@
                 </div>
 				
                 <?php endif; ?>
-				
-		<?php get_sidebar("widget"); ?>
- 
-
-		</div>
-								
-	 </div>
-
-
+			</div>	
+		<?php get_sidebar("widget"); ?> 
+	 </div> 
 <?php get_footer(); ?>
 <?php wp_link_pages(); ?>
