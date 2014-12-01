@@ -41,21 +41,27 @@ Template Name: Front Page
 			</div>
 			<div id="testimonials">
 				<span>Testimonials</span>
+				<?php 
+					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+						the_post_thumbnail();
+					} 
+				?>
+					<?php the_content(); ?>
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi. Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi.</p>
                     <a href="">Read More  >></a> 
 			</div>
 			<div id="ads">
 					<div id="amazon-smile">
-						<img src="<?php bloginfo('template_url'); ?>/images/amazon-smile.jpg" class="ads" alt="logo">
+						<a href="https://smile.amazon.com/"><img src="<?php bloginfo('template_url'); ?>/images/amazon-smile.jpg" class="ads" alt="logo"></a>
 					</div>
 
 					<div id="volunteer-match">
-						<img src="<?php bloginfo('template_url'); ?>/images/volunteer-match.jpg" class="ads" alt="logo">
+						<a href="https://www.volunteermatch.org/"><img src="<?php bloginfo('template_url'); ?>/images/volunteer-match.jpg" class="ads" alt="logo"></a>
 					</div>
 
 					<div id="shop-with-scrip">
-						<img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip">
+						<a href="https://www.shopwithscrip.com/"><img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip"></a>
 					</div> 
 			</div> 
 <?php get_footer(); ?>
