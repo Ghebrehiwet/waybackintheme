@@ -50,7 +50,7 @@
 	 
 				
 		<?php endif; ?>
-	
+		</div>
 	</div><!--close #pagecontent -->
 <?php get_sidebar("widget"); ?>
 
