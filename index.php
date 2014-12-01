@@ -18,8 +18,7 @@
 							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 								the_post_thumbnail();
 							} 
-						?>
-<?php the_content(); ?>
+						?> 
                         <?php the_content('More &raquo;'); ?>
                         <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
                         </div>
