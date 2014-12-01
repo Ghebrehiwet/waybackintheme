@@ -53,15 +53,15 @@ Template Name: Front Page
 			</div>
 			<div id="ads">
 					<div id="amazon-smile">
-						<a href="https://smile.amazon.com/"><img src="<?php bloginfo('template_url'); ?>/images/amazon-smile.jpg" class="ads" alt="amazon-smile" target="_blank"></a>
+						<a href="https://smile.amazon.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/amazon-smile.jpg" class="ads" alt="amazon-smile"></a>
 					</div>
 
 					<div id="volunteer-match">
-						<a href="https://www.volunteermatch.org/"><img src="<?php bloginfo('template_url'); ?>/images/volunteer-match.jpg" class="ads" alt="volunteer-match" target="_blank"></a>
+						<a href="https://www.volunteermatch.org/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/volunteer-match.jpg" class="ads" alt="volunteer-match"></a>
 					</div>
 
 					<div id="shop-with-scrip">
-						<a href="https://www.shopwithscrip.com/"><img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip" target="_blank"></a>
+						<a href="https://www.shopwithscrip.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip"></a>
 					</div> 
 			</div> 
 <?php get_footer(); ?>
