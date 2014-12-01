@@ -38,9 +38,9 @@ get_header(); ?>
 					get_template_part( 'content', 'none' );
 
 				endif;
-			</div>	
-			?>
 			
+			?>
+			</div>	
 		</div>
 
 </div><!-- #content -->
