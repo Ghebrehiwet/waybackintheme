@@ -819,6 +819,11 @@ nav.post-nav {
 	display: none;
 }
 
+#pagecontent div.post {
+	clear:both;
+
+}
+
 
 
 
