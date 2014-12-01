@@ -19,7 +19,11 @@
 				
 				<p>Listed in: <?php the_category(", "); ?><small> Posted by <?php the_author_posts_link();?></small></p>
 				<time datetime="<?php the_time('Y-m-d'); ?>'><?php the_time('M j'); ?></time>
-				<?php the_post_thumbnail(); ?> 
+				<?php 
+					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+						the_post_thumbnail();
+						} 
+				?>  
 				
 				<?php the_content(); ?>
 				
