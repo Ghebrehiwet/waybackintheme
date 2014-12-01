@@ -21,19 +21,13 @@
 						?> 
                         <?php the_content('More &raquo;'); ?>
                         <?php edit_post_link('Edit this entry.', '<p><small>', '</small></p>'); ?>
-						
-						<nav class="post-nav">
+                        </div>
+                    <?php endwhile; ?>
+                
+                        <nav class="post-nav">
                             <p class="alignleft"><?php next_posts_link('&laquo; Older Posts') ?></p>
                             <p class="alignright"><?php previous_posts_link('Newer Posts &raquo;') ?></p>
                         </nav>
-						
-                        </div>
-						
-						
-						
-                    <?php endwhile; ?>
-                
-                        
 						<?php comments_template(); ?>
                 
                 </div>
