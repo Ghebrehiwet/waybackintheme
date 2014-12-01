@@ -2,11 +2,11 @@
  
 get_header(); ?>
 
-	<div id="pagecontent"><!--open #content -->
-
+<div id="pagecontent"><!--open #content -->
+		<div id="post"><!--open #main -->
 			<?php if ( have_posts() ) : ?>
 
-			 
+			 <div id="content" class="tag">
 				<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentyfourteen' ), single_tag_title( '', false ) ); ?></h1>
 
 				<?php
@@ -40,8 +40,9 @@ get_header(); ?>
 				endif;
 				
 			?>
-			
+			</div>
+		</div>
 
-		</div><!-- #content -->
+</div><!-- #content -->
 	 <?php get_sidebar("widget"); ?>
 <?php get_footer(); ?>
