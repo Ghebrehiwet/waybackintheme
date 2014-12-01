@@ -777,16 +777,20 @@ div#widgets {
 	font-size:1.2em;
 }
 
-ol.comment-list li:nth-child(odd) {
+ol.comment-list li:nth-child(odd), div#content div.post-box:nth-child(odd) {
     background-color: beige;
 }
 
-ol.comment-list li:nth-child(even) {
+ol.comment-list li:nth-child(even), div#content div.post-box:nth-child(even) {
     background-color: gainsboro;
 }
 
 ol.comment-list li {
     margin-bottom:2%;
+}
+
+div#content div.post-box {
+    clear: both;
 }
 
 div#post ul.post_nav li {
