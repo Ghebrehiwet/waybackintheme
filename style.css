@@ -262,6 +262,10 @@ div#nav_menu-3 {
 	width: 200px;
 }
 
+nav div ul#menu-main-menu.menu {
+    z-index: 10000;
+}
+
 div#welcome{
 	width:34.042552%;
 	height:400px;
