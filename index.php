@@ -11,7 +11,7 @@
                         <p class="postmetadata">
                             <span class="date">Posted on <?php the_time('F jS, Y') ?></span> in 
                             <span class="cat"><?php the_category(', ') ?></span>
-                            <span class="author"><?php _e('By');?> <?php the_author_posts_link(); ?></span>
+                            <span class="author"><?php _e('By');?></span>
                             <span class="comments">with <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></span>
                         </p>
 						<?php 
