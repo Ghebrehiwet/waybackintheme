@@ -76,8 +76,9 @@
 
 		</div>
 
-</div><!-- #content -->
+
 	 
 
 <?php get_sidebar("widget"); ?>
+</div><!-- #content -->
 <?php get_footer(); ?>
