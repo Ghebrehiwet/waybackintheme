@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-<div id="pagecontent"><!--open #content -->
+<div id="main-content">
+	<div id="pagecontent"><!--open #content -->
 
 			<div class="breadcrumbs">
 					<?php if(function_exists('bcn_display'))
@@ -75,7 +75,7 @@
 								 
 
 					</div> 
-
+		</div><!-- #content -->
 	<?php get_sidebar("widget"); ?>
-</div><!-- #content -->
+	</div>	
 <?php get_footer(); ?>
