@@ -33,10 +33,10 @@
 			<h1><?php bloginfo('name'); ?></a> </h1>
 		</div> 
 		
-		<nav>
+	 
 			 
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			 
-		</nav>
+	 
 	 
 	<div id="main-content">
