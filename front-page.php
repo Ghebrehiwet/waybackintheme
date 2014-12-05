@@ -46,7 +46,7 @@ Template Name: Front Page
 						the_post_thumbnail();
 					} 
 				?>
-					<?php the_content(); ?>
+					 
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <?php
 						$testimonials = new WP_Query( array( "category_name" => "testimonials" ));
