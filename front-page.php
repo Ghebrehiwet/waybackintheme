@@ -54,7 +54,7 @@ Template Name: Front Page
 					?>
 					<h3><?php the_title(); ?></h3>
 					<p><?php the_excerpt(); ?></p>
-					<a href="">Read More  &rAquo;</a> 
+					<a href="<?php the_permalink(); ?>">Read More  &raquo;</a> 
 					<?php wp_reset_postdata(); ?>
 			</div>
 			<div id="ads">
