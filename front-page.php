@@ -22,17 +22,17 @@ Template Name: Front Page
 				<ul id="button-list1">
 					<li id="button-one"><a href="#"><p>VOLUNTEER</p></a></li>
 					<li id="button-two"><a href="#"><p>OUR MISSION</p></a></li>
-					<li id="button-three"><a href="#"><p>DONATE</p></a></li>
+					<li id="button-three"><a href="https://www.justgive.org/basket?acton=donate&ein=91-1548418"><p>DONATE</p></a></li>
 				</ul>
 			</div>
 
 			<div id="button-container2">
 				<ul id="button-list2">
-					<li id="button-four"><a href="#"><p>NEED HELP?</p></a></li>
+					<li id="button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>NEED HELP?</p></a></li>
 					<li id="button-five"><a href="#"><p>SIGN UP</p></a></li>
 					<li id="button-six">
 						<div id="social-networking"> 
-							<div id="facebook"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
+							<div id="facebook"><a href="https://www.facebook.com/pages/Way-Back-Inn/50723934261"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
 							<div id="twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
 						</div>
 					</li>
