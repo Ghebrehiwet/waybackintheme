@@ -22,5 +22,11 @@
 	<?php wp_footer(); ?>
 		</div><!-- close #main-content -->
 	</div><!-- close #wrapper-->
+	<script>
+	var $ = jQuery;
+	$(".mobile-button").click(function() {
+		$(this).closest(".menu-container").find(".menu").slideToggle();
+	});
+	</script>
 </body>
 </html>
