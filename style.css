@@ -192,8 +192,6 @@ div#nav_menu-3 {
 	width: 200px;
 }
 
-
-
 div#welcome{
 	width:34.042552%;
 	height:400px;
@@ -204,15 +202,15 @@ div#welcome{
 }
 div#welcome h3
 {
-padding-top:5%;
-text-align:center;
+	padding-top:5%;
+	text-align:center;
 
 }
 div#welcome p
 {
-padding: 5%;
-font-size:1em;
-text-align:justify;
+	padding: 5%;
+	font-size:1em;
+	text-align:justify;
 }
 div#welcome p::first-letter
 {
@@ -221,6 +219,9 @@ div#welcome p::first-letter
 
 
 }
+
+
+
 
 div#flexslider{
 	width:65.957446%;
@@ -235,7 +236,6 @@ img.flexslider
 	width:100%;
 
 }
-
 
 
 
@@ -323,8 +323,7 @@ border-color: #aaab9c #fff #fff #ccc;
 #button-container2
 {
 
-width: 31.914893%;
-height:340px;
+
 
 
 background-color:#B9D59D;
@@ -1108,3 +1107,4 @@ height: 2%;
 }
 
 /*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */
+/* ---------------------  Media Queries --------------------------------  */

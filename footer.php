@@ -5,18 +5,18 @@
                   <span><?php bloginfo('name'); ?></span></a>
                 </div>
                 <div>
-                  <?php get_sidebar("footer"); ?> 
+                  <?php get_sidebar("footer"); ?>
                 </div>
                 <div>
-                	<?php get_sidebar("managerinfo"); ?> 
+                	<?php get_sidebar("managerinfo"); ?>
                 </div>
-		
+
 			</footer>
 			<div id="footer2">
 				<p id="copyright">Copyright&copy; All Rights Reserved</p>
 				<p id="way-back-inn">Way Back Inn 2014 - <?php echo date('Y'); ?></p>
 				<p id="privacy">Privacy Policy</p>
-				<p id="login"><a href="<?php echo wp_login_url(); ?>" title="Login">Login</a></p>
+				
 
 			</div>
 	<?php wp_footer(); ?>
