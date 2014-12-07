@@ -29,6 +29,8 @@
 @media all and (min-width:800px) and (max-width:924px)
 
 {
+
+
   #menu-main-menu > li a {
 
     padding: 14px 11px;
@@ -54,12 +56,21 @@
 
 
 /* End Main Nav */
+#footer2 {
+  font-size:.9em;
 
+}
 
 
 @media all and (min-width:600px) and (max-width:800px)
 {
   /* front-page.php */
+  div#wrapper{
+    width:100%;
+    background-color:transparent;
+    margin:auto;
+  }
+
 
   div#header h1 {
 
@@ -96,29 +107,31 @@
     margin-left:1.0638295%;
 
     margin-top:10px;
-    height:300px;
+    height:200px;
     margin-bottom:20px;
     overflow:hidden;
 
 
   }
   div#welcome h3 {
+    padding-top:5px;
+
     text-align:left;
-    padding-left:3%;
+    padding-left:2%;
     padding-bottom:10px;
 
   }
   div#welcome p {
 
-    padding:0;
-    padding-left:3%;
+    padding:0 2% 0 2%;
+
   }
 
   div#flexslider
   {
     width:97.916667%;
     margin-left:1.0638295%;
-    height:400px;
+    height:500px;
 
     clear:both;
     margin-bottom:20px;
@@ -228,10 +241,26 @@ div#ads
 }
 .ads
 {
-margin-top:13%;
+margin-top:5%;
 
 }
 
+
+
+footer {
+  font-size:.85em;
+
+
+}
+footer div img {
+  width:100px !important;
+  height:85px !important;
+}
+
+#footer2 {
+  font-size:.8em;
+
+}
 /* End front-page */
 
 
@@ -270,6 +299,13 @@ margin-top:13%;
 
 
   /* front-page.php */
+  div#wrapper{
+    width:100%;
+    background-color:transparent;
+    margin:auto;
+  }
+
+
   div#header h1 {
 
     font-size:40pt;
@@ -299,6 +335,43 @@ margin-top:13%;
     color:#EEF2DC;
     display:inherit;
   }
+  div#welcome{
+    clear:both;
+    width:97.916667%;
+    margin-left:1.0638295%;
+
+    margin-top:10px;
+    height:200px;
+    margin-bottom:20px;
+    overflow:hidden;
+    font-size:.8em;
+
+
+  }
+  div#welcome h3 {
+    text-align:left;
+    padding-top:5px;
+    padding-left:2%;
+    padding-bottom:10px;
+
+  }
+  div#welcome p {
+
+    padding:0 2% 0 2%;
+
+  }
+
+  div#flexslider
+  {
+    width:97.916667%;
+    margin-left:1.0638295%;
+    height:200px;
+
+    clear:both;
+    margin-bottom:20px;
+    float:left;
+  }
+
 
   #button-container1
   {
@@ -381,6 +454,21 @@ margin-top:13%;
     clear:both;
 
   }
+  #facebook, #twitter
+  {
+
+
+    width:40%;
+    height:100%;
+    float:left;
+  }
+  #facebook img, #twitter img
+  {
+    margin-top:10%;
+    margin-left:15%;
+    width:70%;
+  }
+
   div#testimonials
   {
 
@@ -403,12 +491,20 @@ margin-top:13%;
     margin-top:12%;
 
   }
-  footer div {
+  footer {
+    font-size:.85em;
 
 
   }
+  footer div img {
+    width:100px !important;
+    height:85px !important;
+  }
 
+  #footer2 {
+    font-size:.7em;
 
+  }
 /* End front-page */
 
 
