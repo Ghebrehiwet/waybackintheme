@@ -39,7 +39,10 @@ div#main-content{
 	margin:auto;
 
 }
+div#main-content1 {
 
+	width:100%;
+}
 div#header{
 	width:100%;
 	height:160px;
@@ -151,46 +154,6 @@ div.menu-main-menu-container {
 
 
 
-/*TYPOGRAPHY*/
-
-h2 {
-	margin: 1.5% 0;
-}
-
-p {
-	margin-bottom: 1.5%;
-}
-
-h3#reply-title.comment-reply-title {
-border-bottom: none;
-text-align: left;
-margin-top: 2%;
-}
-
-
-h2.comments-title {
-font-size: 100%;
-text-decoration: underline;
-}
-h3.widget-title {
-margin: 1.5% 0;
-/* border-bottom: 2px double #900; */
-text-decoration: underline;
-}
-blockquote {
-	padding: 25px 40px 15px;
-	border-top: 2px solid #bbb;
-	border-bottom: 2px solid #bbb;
-	font-style: italic;
-	font-size: 17px;
-	line-height: 2;
-	color: #666;
-	margin: 30px 0px;
-}
-
-div#nav_menu-3 {
-	width: 200px;
-}
 
 div#welcome{
 	width:34.042552%;
@@ -204,6 +167,7 @@ div#welcome h3
 {
 	padding-top:5%;
 	text-align:center;
+	font-size:1.3em;
 
 }
 div#welcome p
@@ -214,7 +178,7 @@ div#welcome p
 }
 div#welcome p::first-letter
 {
-	font-size:1.3em;
+	font-size:1.2em;
 	font-weight:bold;
 
 
@@ -247,7 +211,8 @@ img.flexslider
 background-color:#B9D59D;
 
 text-transform: uppercase;
-width:100%;
+width:97.916667%;
+margin-left:1.0638295%;
 height:100px;
 clear:both;
 }
@@ -322,15 +287,10 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #button-container2
 {
-
-
-
-
 background-color:#B9D59D;
-width: 31.914893%;
+width:29.787234%;
 height:340px;
-
-
+margin-left:1.0638295%;
 margin-top:20px;
 float:left;
 text-transform: uppercase;
@@ -406,13 +366,13 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #facebook, #twitter
 {
-	background-color:transparent;
+
 
 	width:50%;
 	height:100%;
 	float:left;
 }
-#facebook a, #twitter a
+#facebook a , #twitter a
 {
 	background-color:transparent !important;
 	box-shadow:none !important;
@@ -1116,4 +1076,46 @@ height: 2%;
 }
 
 /*  ---------------  END WORDPRESS-GENERATED SELECTORS  ---------------  */
+/*TYPOGRAPHY*/
+
+h2 {
+	margin: 1.5% 0;
+}
+
+p {
+	margin-bottom: 1.5%;
+}
+
+h3#reply-title.comment-reply-title {
+	border-bottom: none;
+	text-align: left;
+	margin-top: 2%;
+}
+
+
+h2.comments-title {
+	font-size: 100%;
+	text-decoration: underline;
+}
+h3.widget-title {
+	margin: 1.5% 0;
+	/* border-bottom: 2px double #900; */
+	text-decoration: underline;
+}
+blockquote {
+	padding: 25px 40px 15px;
+	border-top: 2px solid #bbb;
+	border-bottom: 2px solid #bbb;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 2;
+	color: #666;
+	margin: 30px 0px;
+}
+
+div#nav_menu-3 {
+	width: 200px;
+}
+/*End Typography*/
+
 /* ---------------------  Media Queries --------------------------------  */

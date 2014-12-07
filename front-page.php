@@ -5,7 +5,7 @@ Template Name: Front Page
 ?>
 <?php get_header(); ?>
 
-<div id="main-content">
+<div id="main-content1">
 			<div id="welcome">
 
 					<h3>Welcome to Way Back Inn</h3>
