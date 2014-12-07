@@ -1,3 +1,36 @@
+<!--<footer>
+
+	<div>
+		<img src="images/logo-footer.png" alt="logo">
+		<span>Way Back Inn</span></a>
+	</div>
+
+	<div>
+		<ul>
+			<li><a href="">About Us</a></li>
+			<li><a href="">Get Involved</a></li>
+			<li><a href="">Publications</a></li>
+			<li><a href="">Resources</a></li>
+			<li><a href="">Members</a></li>
+			<li><a href="">Contact Us</a></li>
+		</ul>
+	</div>
+
+	<div>
+		<ul>
+			<li>Program Manager: Tonya Ward</li>
+			<li>Services: (206)-682-7382</li>
+			<li>Information: (206)217-6623</li>
+			<li>149 Park Ave North</li>
+			<li>Suite B</li>
+
+		</ul>
+	</div>
+
+
+</footer>-->
+
+
 	<footer>
 		<div>
                 <a href="">
