@@ -15,11 +15,12 @@ General comments (optional).
 	padding:0;
 }
 html{
+	background-color:#E0E0E0;
 	max-width:1200px;
 	margin:0 auto;
 }
 body {
-background-color:green;
+background-color: #F0F0F0;
 font-size:1em;
 
 }
