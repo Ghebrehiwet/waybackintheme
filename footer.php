@@ -16,7 +16,7 @@
 				<p id="copyright">Copyright&copy; All Rights Reserved</p>
 				<p id="way-back-inn">Way Back Inn 2014 - <?php echo date('Y'); ?></p>
 				<p id="privacy">Privacy Policy</p>
-				
+
 
 			</div>
 	<?php wp_footer(); ?>
