@@ -15,11 +15,12 @@ General comments (optional).
 	padding:0;
 }
 html{
+	background-color:#E0E0E0;
 	max-width:1200px;
 	margin:0 auto;
 }
 body {
-background-color:green;
+background-color: #F0F0F0;
 font-size:1em;
 
 }
@@ -382,7 +383,7 @@ border-color: #aaab9c #fff #fff #ccc;
 	height:100%;
 	float:left;
 }
-#facebook a , #twitter a
+#facebook a, #twitter a
 {
 	background-color:transparent !important;
 	box-shadow:none !important;
@@ -464,29 +465,29 @@ div#ads{
 
 #amazon-smile
 {
-margin-left:2.127659%;
+	margin-left:2.127659%;
 
 }
 
 #amazon-smile, #volunteer-match, #shop-with-scrip
 {
-width:30.914893%;
-background-color:#FFFEF9;
-float:left;
-height:140px;
+	width:30.914893%;
+	background-color:#FFFEF9;
+	float:left;
+	height:140px;
 
 
 }
 #amazon-smile, #volunteer-match
 {
 
-margin-right:2.127659%;
+	margin-right:2.127659%;
 }
 
 .ads
 {
-width:100%;
-margin-top:6%;
+	width:100%;
+	margin-top:6%;
 
 
 }
@@ -498,49 +499,43 @@ footer{
 	background-color:#FFFEF9;
 	margin-top:20px;
 	clear:both;
-	display:table;
 	border-radius:10px;
 
 
 }
 footer div {
-	width:33%;
-	vertical-align:middle;
-	display:table-cell;
+	margin-top:25px;
+	width:28%;
+	margin-left:2%;
+	float:left;
+	text-align:center;
+}
+footer div span {
+
+	display:block;
+}
+footer div ul li {
+	display: block;
+	list-style:none;
+
 }
 
 footer div:first-child {
-	padding-left:10%;
+	margin-left:5%;
+
 
 }
-
-footer span {
-	width:100%;
-	display:block;
-	color:#64766A;
-}
-footer a {
-	text-align:center;
-	width:100%;
-	display:block;
-}
-footer span.logo {
-	color:#2B621D;
-	font-size:18pt;
-	font-family:Candara;
-}
-
 .menu-footer-menu-container ul li {
 	list-style: none;
 }
 
 #footer2
 {
-width:100%;
-height:30px;
-clear:both;
-margin-bottom:10px;
-position:relative;
+	width:100%;
+	height:30px;
+	clear:both;
+	margin-bottom:10px;
+	position:relative;
 
 
 }
@@ -579,7 +574,7 @@ position:relative;
 
 #pagecontent {
 	width:73.468085%;
-    float:left;
+	float:left;
 	overflow:hidden;
 	background-color: #FFFEF8;
 	font-family:Arial;
@@ -589,7 +584,7 @@ position:relative;
 	margin-top:10px;
 	position:relative;
 	border-radius:10px;
-	}
+}
 
 #primarypagesidebar {
 	width:23.404255%;
@@ -792,14 +787,14 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 }
 
 #pagecontent #pagemaincontent .pagecontentsection h4{
-	 color: #769a0f;
+	color: #769a0f;
 }
 
 #pagecontent #pagemaincontent .pagecontentsection div {
-	 overflow:hidden;
+	overflow:hidden;
 
 
-	 padding:5px;
+	padding:5px;
 }
 
 #bread-crumb
@@ -810,12 +805,12 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 
 
 #categories-3 ul {
- list-style: none;
+	list-style: none;
 }
 
 
 #meta-3 ul {
- list-style: none;
+	list-style: none;
 }
 
 /*styles for index.html */
@@ -844,7 +839,7 @@ div.post-list a {
 	bottom:20px;
 }
 
- div.post-list div.image-left {
+div.post-list div.image-left {
 	float: left;
 }
 
@@ -854,31 +849,31 @@ div.post-list div.text-right{
 }
 
 div#widgets {
-    text-align: center;
+	text-align: center;
 	font-size:1.2em;
 }
 
 ol.comment-list li:nth-child(odd), div#content div.post-box:nth-child(odd) {
-    background-color: beige;
+	background-color: beige;
 }
 
 ol.comment-list li:nth-child(even), div#content div.post-box:nth-child(even) {
-    background-color: gainsboro;
+	background-color: gainsboro;
 }
 
 ol.comment-list li {
-    margin-bottom:2%;
+	margin-bottom:2%;
 }
 
 div#content div.post-box {
-    clear: both;
+	clear: both;
 }
 
 div#post ul.post_nav li {
-text-align: center;
-margin: 5% 0;
-background-color: #000;
-padding: 1% 0;
+	text-align: center;
+	margin: 5% 0;
+	background-color: #000;
+	padding: 1% 0;
 }
 
 div#post ul.post_nav li a {
@@ -894,9 +889,9 @@ p#bread-crumb span a:hover {
 /*  404.php */
 
 .main_content.left {
-width: 67%;
-padding: 2%;
-background-color: floralwhite;
+	width: 67%;
+	padding: 2%;
+	background-color: floralwhite;
 }
 
 
@@ -1012,8 +1007,8 @@ div.hentry {
 }
 
 img.avatar.avatar-20.photo {
-max-width: 10%;
-height: 2%;
+	max-width: 10%;
+	height: 2%;
 }
 
 

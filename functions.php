@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 register_nav_menus();
 
@@ -21,7 +21,7 @@ $mainMenu = array(
 	"depth" => 1
 );
 
- 
+
 
 
 function my_register_sidebars() {
@@ -37,7 +37,7 @@ function my_register_sidebars() {
 			'after_title' => '</h3>'
 		)
 	);
-	
+
 	/* Register the secondary sidebar.*/
 	register_sidebar(
 		array(
@@ -48,32 +48,28 @@ function my_register_sidebars() {
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
 		)
-	); 
-	
+	);
+
 	/* Register the footer widget area. */
 	register_sidebar(
 		array(
 			'id' => 'footer',
 			'name' => __( 'Footer Widget Area' ),
-			'before_widget' => '<div id="%1$s" class="widget %2$s">',
-			'after_widget' => '</div>',
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
 		)
 	);
-	
+
 	/* Register the footer widget area. */
 	register_sidebar(
 		array(
 			'id' => 'managerinfo',
 			'name' => __( 'Footer Widget Area 2' ),
-			'before_widget' => '<span id="%1$s" class="widget %2$s">',
-			'after_widget' => '</span>',
 			'before_title' => '<h3 class="widget-title">',
 			'after_title' => '</h3>'
 		)
 	);
-	
+
 	/* Repeat register_sidebar() code for additional sidebars. */
 }
 
