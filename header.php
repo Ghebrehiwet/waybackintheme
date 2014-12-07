@@ -33,7 +33,7 @@
 <body <?php body_class($class); ?>>
 	<div id="wrapper">
 		<div id="header">
-			<h1><a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px" ><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px" "><?php bloginfo('name'); ?></a></h1>
 
 		</div>
 
