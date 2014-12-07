@@ -32,17 +32,15 @@
 
 
 	<footer>
-		<div>
-                <a href="">
-                  <span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"></span>
-                  <span><?php bloginfo('name'); ?></span></a>
-                </div>
-                <div>
+
+              <div>  <a href=""><span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"><span><?php bloginfo('name'); ?></span></a></div>
+
+
                   <?php get_sidebar("footer"); ?>
-                </div>
-                <div>
+
+
                 	<?php get_sidebar("managerinfo"); ?>
-                </div>
+
 
 			</footer>
 			<div id="footer2">
