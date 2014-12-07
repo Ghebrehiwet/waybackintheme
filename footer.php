@@ -1,8 +1,9 @@
-<!--<footer>
 
-	<div>
-		<img src="images/logo-footer.png" alt="logo">
-		<span>Way Back Inn</span></a>
+<footer>
+
+
+		 <div><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px">
+		<span>Way Back Inn</span>
 	</div>
 
 	<div>
@@ -25,24 +26,15 @@
 			<li>Suite B</li>
 
 		</ul>
-	</div>
+
+</div>
+
+</footer>
 
 
-</footer>-->
 
 
-	<footer>
 
-              <div>  <a href=""><span><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"><span><?php bloginfo('name'); ?></span></a></div>
-
-
-                  <?php get_sidebar("footer"); ?>
-
-
-                	<?php get_sidebar("managerinfo"); ?>
-
-
-			</footer>
 			<div id="footer2">
 				<p id="copyright">Copyright&copy; All Rights Reserved</p>
 				<p id="way-back-inn">Way Back Inn 2014 - <?php echo date('Y'); ?></p>

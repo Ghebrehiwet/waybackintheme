@@ -513,6 +513,7 @@ footer div {
 footer div span {
 
 	display:block;
+	margin-right:30px;
 }
 footer div ul li {
 	display: block;
@@ -522,8 +523,20 @@ footer div ul li {
 
 footer div:first-child {
 	margin-left:5%;
+	margin-top:15px !important;
 
 
+}
+
+
+.menu-footer-menu-container, .textwidget {
+
+	width:100%;
+}
+
+li#nav_menu-2, li#text-2 {
+list-style:none;
+width:100%;
 }
 .menu-footer-menu-container ul li {
 	list-style: none;
