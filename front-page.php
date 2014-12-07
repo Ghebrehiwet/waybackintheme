@@ -14,8 +14,8 @@ Template Name: Front Page
 
 			</div>
 			<div id="flexslider">
-				<?php 
-					echo do_shortcode("[metaslider id=113]"); 
+				<?php
+					echo do_shortcode("[metaslider id=113]");
 				?>
 			</div>
 			<div id="button-container1">
@@ -31,9 +31,9 @@ Template Name: Front Page
 					<li id="button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>NEED HELP?</p></a></li>
 					<li id="button-five"><a href="#"><p>SIGN UP</p></a></li>
 					<li id="button-six">
-						<div id="social-networking"> 
+						<div id="social-networking">
 							<div id="facebook"><a href="https://www.facebook.com/pages/Way-Back-Inn/50723934261"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
-							<div id="twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
+							<div id="twitter"><a href="https://www.facebook.com/pages/Way-Back-Inn/50723934261"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
 						</div>
 					</li>
 
@@ -41,12 +41,12 @@ Template Name: Front Page
 			</div>
 			<div id="testimonials">
 				<span>Testimonials</span>
-				<?php 
+				<?php
 					if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 						the_post_thumbnail();
-					} 
+					}
 				?>
-					 
+
               <img src="<?php bloginfo('template_url'); ?>/images/testimonials.png" alt="testimonials">
                     <?php
 						$testimonials = new WP_Query( array( "category_name" => "testimonials" ));
@@ -54,7 +54,7 @@ Template Name: Front Page
 					?>
 					<h3><?php the_title(); ?></h3>
 					<p><?php the_excerpt(); ?></p>
-					<a href="<?php the_permalink(); ?>">Read More  &raquo;</a> 
+					<a href="<?php the_permalink(); ?>">Read More  &raquo;</a>
 					<?php wp_reset_postdata(); ?>
 			</div>
 			<div id="ads">
@@ -68,7 +68,6 @@ Template Name: Front Page
 
 					<div id="shop-with-scrip">
 						<a href="https://www.shopwithscrip.com/" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/shop-with-scrip.jpg" class="ads" alt="shop with scrip"></a>
-					</div> 
-			</div> 
+					</div>
+			</div>
 <?php get_footer(); ?>
-

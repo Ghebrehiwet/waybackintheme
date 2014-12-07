@@ -389,32 +389,41 @@ background-color:#EEF2DC;
 border-color: #aaab9c #fff #fff #ccc;
 }
 
+#button-six
+{
+	background-color:#fffef9;
+	border-radius:20px;
+}
+
 #social-networking
 {
-	width:100%;
+	width:70%;
 	height:100px;
-
+	margin-left:auto;
+	margin-right:auto;
 
 }
 
- #facebook, #twitter
+#facebook, #twitter
 {
-	width:33.33333%;
-	margin-left:11%;
+	background-color:transparent;
+
+	width:50%;
 	height:100%;
 	float:left;
-	background-color:#B9D59D;
+}
+#facebook a, #twitter a
+{
+	background-color:transparent !important;
+	box-shadow:none !important;
 }
 
 
-
-
-.social-networking
+#facebook img, #twitter img
 {
-width:100%;
-
-
-
+	margin-top:15%;
+	margin-left:15%;
+	width:70%;
 }
 
 /*End vertical buttons*/
