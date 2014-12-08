@@ -380,7 +380,7 @@ border-color: #aaab9c #fff #fff #ccc;
 {
 
 
-	width:50%;
+	width:60%;
 	height:100%;
 	float:left;
 }
@@ -393,7 +393,7 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #facebook img, #twitter img
 {
-	margin-top:10%;
+	margin-top:7%;
 	margin-left:15%;
 	width:70%;
 }
@@ -607,7 +607,7 @@ padding:5px 0 0 20px;
 #primarypagesidebar {
 	width:23.404255%;
 	float:right;
-	margin-top:10px;
+	margin-top:20px;
 
 }
 /*start top list sidebar buttons*/
@@ -618,7 +618,7 @@ padding:5px 0 0 20px;
 	margin-right:4.545454%;
 	height:200px;
 	background-color:#B9D59D;
-	margin-top:2%;
+	
 	float:left;
 	text-transform: uppercase;
 }
