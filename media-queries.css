@@ -223,6 +223,14 @@ ul#button-list1 li a:hover, ul#button-list1 li#active a:hover
   height:340px;
 }
 
+
+#button-six
+{
+  background-color:transparent;
+
+}
+
+
 div#testimonials
 {
 
@@ -458,41 +466,43 @@ footer div img {
     clear:both;
 
   }
-  #facebook, #twitter
-  {
 
 
-    width:40%;
-    height:100%;
-    float:left;
-  }
-  #facebook img, #twitter img
+  #button-six
   {
-    margin-top:10%;
-    margin-left:15%;
-    width:70%;
+    background-color:transparent;
+
   }
+  #facebook img, #twitter img {
+  width:60%;
+  margin: 0 0 0 20%;
+
+  }
+
 
   div#testimonials
   {
 
     width:98%;
+    height:240px;
   }
 
 
   div#ads
   {
-
+background-color:transparent;
     height:100px;
   }
 
   #amazon-smile, #volunteer-match, #shop-with-scrip
   {
+    background-color:transparent;
     height:100px;
   }
   .ads
   {
-    margin-top:12%;
+    height:60px;
+    margin-top:15%;
 
   }
   footer {
@@ -501,14 +511,32 @@ footer div img {
 
   }
   footer div img {
-    width:100px !important;
-    height:85px !important;
-  }
 
+    margin-top:15px;
+    width:85px !important;
+    height:70px !important;
+  }
+  footer div span {
+
+    font-size:.9em;
+  }
+  footer div:first-child {
+
+
+  }
+  footer div:last-child {
+
+    font-size:.75em;
+  }
   #footer2 {
-    font-size:.7em;
+    font-size:.6em;
 
   }
+  #footer2 div:first-child {
+
+    margin-left:0;
+  }
+
   #copyright {
 
     margin-left:3%;
