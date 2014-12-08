@@ -732,7 +732,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 #sidebar-social-networking
 {
 	width:100%;
-	height:100px;
+	height:60px;
 	margin-top:60px;
 
 }
@@ -754,8 +754,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 
 #sidebar-facebook img, #sidebar-twitter img
 {
-	margin-top:5%;
-	margin-left:10%;
+	
 	width:80%;
 }
 

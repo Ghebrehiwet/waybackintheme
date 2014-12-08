@@ -11,13 +11,16 @@
 						<li id="side-button-four"><a href="#"><p>Need Help?</p></a></li>
 						<li id="side-button-five"><a href="#"><p>Our Mission</p></a></li>
 						<li id="side-button-six">
-							<div id="social-networking"> 
-								<div id="facebook"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
-							<div id="twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
+							<div id="sidebar-social-networking">
+								<div id="sidebar-facebook"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
+							<div id="side-bar-twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
 							</div>
 						</li>
 					</ul>
+ 
 				</div> 
 				 
+ 
+				</div>
+				 
 </div>
-
