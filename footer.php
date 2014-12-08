@@ -36,9 +36,9 @@
 
 
 			<div id="footer2">
-				<p id="copyright">Copyright&copy; All Rights Reserved</p>
-				<p id="way-back-inn">Way Back Inn 2014 - <?php echo date('Y'); ?></p>
-				<p id="privacy">Privacy Policy</p>
+				<div><p id="copyright">Copyright&copy; All Rights Reserved</p></div>
+				<div><p id="way-back-inn">Way Back Inn 2014 - <?php echo date('Y'); ?></p></div>
+				<div><p id="privacy">Privacy Policy</p></div>
 
 
 			</div>

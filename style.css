@@ -549,39 +549,41 @@ width:100%;
 	width:100%;
 	height:30px;
 	clear:both;
-	margin-bottom:10px;
-	position:relative;
-
 
 }
-#footer2 p
+
+#footer2 div {
+
+	width:30%;
+	height:30px;
+	float:left;
+
+}
+#footer2 div:first-child {
+
+	margin-left:3%;
+	margin-right:3%;
+
+}
+#footer2 div:last-child {
+	margin-left:3%;
+
+}
+#footer2 div p
 {
-	position:absolute;
-	margin-top:4px;
 	font-weight:bold;
-	text-align:center;
-	width:33%;
-	font-family:Candara;
-	color:gray;
-}
+font-size:1em;
+color:blue;
+padding:5px 0 0 20px;
 
+}
+#footer2 div p:first-child {
+	padding-left:30px;
 
-#copyright
-{
-	margin-left:5%;
-}
-#way-back-inn
-{
-	margin-left:33%;
-}
-#privacy
-{
-	margin-left:62%;
 }
 
 
 
-}
 
 /*styles for pages.html */
 
