@@ -9,6 +9,7 @@
 			{
 				bcn_display();
 			}?>
+		</p>
 			<h2><?php the_title(); ?></h2>
 
 
@@ -24,4 +25,5 @@
 </div>
 
 <?php get_sidebar("right"); ?>
+<?php get_sidebar("widget"); ?> 
 <?php get_footer(); ?>

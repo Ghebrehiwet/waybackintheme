@@ -1,7 +1,12 @@
 <?php get_header(); ?> 
 
 <div id="pagecontent"><!--opening #middle -->
-				 
+	<p id="bread-crumb">
+					<?php if(function_exists('bcn_display'))
+			{
+				bcn_display();
+			}?>
+		</p>			 
 	<div id="content" class="index">
 				<?php if (have_posts()) : ?>
                 
@@ -36,6 +41,7 @@
 			 
 		
 	 </div> 
+	 <?php get_sidebar("right"); ?>
 	 <?php get_sidebar("widget"); ?> 
 <?php get_footer(); ?>
 <?php wp_link_pages(); ?>
