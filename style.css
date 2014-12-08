@@ -676,6 +676,7 @@ ul#button-list3 li a:hover, ul#button-list3 li#active a:hover
 	height:200px;
 	background-color:#B9D59D;
 	margin-top:10px;
+	margin-bottom:20px;
 
 	float:left;
 	text-transform: uppercase;
@@ -751,7 +752,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 {
 	width:33.33333%;
 	margin-left:12%;
-	margin-top:7%;
+	margin-top:6%;
 	height:100%;
 	float:left;
 }
