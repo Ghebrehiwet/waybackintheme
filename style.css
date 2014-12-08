@@ -835,6 +835,10 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	list-style: none;
 }
 
+div#post {
+	padding: 1%;
+}
+
 div.post-list span {
 	width:100%;
 	text-align:center;
@@ -895,6 +899,13 @@ div#post ul.post_nav li {
 
 div#post ul.post_nav li a {
 	color: white;
+}
+
+p#bread-crumb { 
+padding: 3px;
+color: darkgrey;
+border: 1px solid #900;
+border-radius: 5px;
 }
 
 p#bread-crumb span a:hover {
