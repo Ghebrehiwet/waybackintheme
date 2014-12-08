@@ -53,6 +53,5 @@
 				<p>Sorry we couldn't find your post</p>
 			<?php endif; ?>
 </div><!--close #pagecontent -->
-	<?php get_sidebar("right"); ?>
-	 <?php get_sidebar("widget"); ?> 
+	<?php get_sidebar("right"); ?> 
 <?php get_footer(); ?>

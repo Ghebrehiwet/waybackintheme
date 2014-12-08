@@ -24,6 +24,5 @@
 	</div>
 </div>
 
-<?php get_sidebar("right"); ?>
-<?php get_sidebar("widget"); ?> 
+<?php get_sidebar("right"); ?> 
 <?php get_footer(); ?>
