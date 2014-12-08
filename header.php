@@ -33,13 +33,22 @@
 <body <?php body_class($class); ?>>
 	<div id="wrapper">
 		<div id="header">
- 
+
 			<h1><a href="<?php echo get_option('home'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.gif" alt="logo" style="width: 120px; height: 106px"><?php bloginfo('name'); ?></a></h1>
-  
+
 		</div>
 
 			<div class="menu-container">
-				<a class="mobile-button">Menu</a>
+				<ul>
+					<li><a class="mobile-button">Menu</a>
+						<ul class="sub-nav">
+							<li><a href="#"><p>About Us</p></a></li>
+							<li><a href="#"><p>Get Involved</p></a></li>
+							<li><a href="#"><p>Publications</p></a></li>
+							<li><a href="#"><p>Resources</p></a></li>
+							<li><a href="#"><p>Members</p></a></li>
+							<li><a href="#"><p>Contact Us</p></a></li>
+						</ul>
 
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
