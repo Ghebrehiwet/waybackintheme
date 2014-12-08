@@ -18,8 +18,6 @@
 						</li>
 					</ul>
 				</div> 
-				<div id="widgets">
-					<?php dynamic_sidebar("widget"); ?>
-				</div>
+				 
 </div>
 

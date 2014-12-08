@@ -928,7 +928,7 @@ div#post ul.post_nav li a {
 }
 
 p#bread-crumb { 
- 
+ margin-top: 2%;
 }
 
 p#bread-crumb span a:hover {
