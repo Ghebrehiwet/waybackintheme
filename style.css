@@ -43,6 +43,7 @@ div#main-content{
 div#main-content1 {
 
 	width:100%;
+	background-color:#B9D59D;
 }
 div#header{
 	width:100%;
@@ -772,7 +773,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	margin-right:20px;
 }
 
-#page-main-content .page-content-section {
+#pagemaincontent .page-content-section {
 	width:100%;
 	float: left;
 	overflow:hidden;
@@ -916,8 +917,8 @@ div#post ul.post_nav li {
 div#post ul.post_nav li a {
 	color: white;
 }
- 
- 
+
+
 
 p#bread-crumb span a:hover {
 	background-color: #000;
