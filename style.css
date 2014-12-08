@@ -367,7 +367,7 @@ border-color: #aaab9c #fff #fff #ccc;
 	border-radius:20px;
 }
 
-#social-networking
+#sidebar-social-networking
 {
 	width:70%;
 	height:100px;
@@ -393,7 +393,7 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #facebook img, #twitter img
 {
-	margin-top:15%;
+	margin-top:10%;
 	margin-left:15%;
 	width:70%;
 }
