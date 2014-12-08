@@ -617,7 +617,7 @@ padding:5px 0 0 20px;
 	margin-right:4.545454%;
 	height:340px;
 	background-color:#B9D59D;
-	margin-top:80px;
+	margin-top:2%;
 	float:left;
 	text-transform: uppercase;
 }
@@ -872,7 +872,10 @@ div.post-list div.text-right{
 div#widgets {
 	text-align: center;
 	font-size:1.2em;
+	margin-bottom:4%;
 }
+
+
 
 ol.comment-list li:nth-child(odd), div#content div.post-box:nth-child(odd) {
 	background-color: beige;
@@ -906,6 +909,7 @@ padding: 3px;
 color: darkgrey;
 border: 1px solid #900;
 border-radius: 5px;
+margin-top:2%;
 }
 
 p#bread-crumb span a:hover {
@@ -1135,6 +1139,11 @@ h3.widget-title {
 	/* border-bottom: 2px double #900; */
 	text-decoration: underline;
 }
+
+div#archives-3 ul li {
+	list-style: none;
+} 
+
 blockquote {
 	padding: 25px 40px 15px;
 	border-top: 2px solid #bbb;
