@@ -761,20 +761,43 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 .social-networking
 {
 	width:100%;
-
-
-
 }
 
-
-#pagecontent h3 {
-	border-bottom: 3px double #769a0f;
-	margin-bottom:1em;
-	text-align: center;
+#pagecontent h3{
+	color: #2B621D;
+	margin-top:30px;
+	margin-left:10px;
+	text-decoration:underline;
+	font-family:Arial;
 }
-
+ 
 #pagecontent h2 {
 	text-align: center;
+	border-bottom: 3px double #769a0f;
+	margin-bottom:1em;
+	font-size:1.5em;
+	margin-top:10px;
+	color:#2B621D;
+	margin-left:20px;
+	margin-right:20px;
+}
+ 
+#page-main-content .page-content-section {
+	width:100%;
+	float: left;
+	overflow:hidden;
+}
+ 
+.read-more {
+	position:absolute;
+	right:10px;
+	font-size:.8em;
+}
+ 
+p.read-more a
+{
+	font-size:1.1em;
+	color:#6495ED;
 }
 
 #pagecontent img {
