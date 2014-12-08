@@ -367,7 +367,7 @@ border-color: #aaab9c #fff #fff #ccc;
 	border-radius:20px;
 }
 
-#sidebar-social-networking
+#social-networking
 {
 	width:70%;
 	height:100px;
@@ -380,7 +380,7 @@ border-color: #aaab9c #fff #fff #ccc;
 {
 
 
-	width:60%;
+	width:50%;
 	height:100%;
 	float:left;
 }
@@ -393,7 +393,7 @@ border-color: #aaab9c #fff #fff #ccc;
 
 #facebook img, #twitter img
 {
-	margin-top:7%;
+	margin-top:15%;
 	margin-left:15%;
 	width:70%;
 }
@@ -607,7 +607,7 @@ padding:5px 0 0 20px;
 #primarypagesidebar {
 	width:23.404255%;
 	float:right;
-	margin-top:20px;
+	margin-top:10px;
 
 }
 /*start top list sidebar buttons*/
@@ -618,7 +618,7 @@ padding:5px 0 0 20px;
 	margin-right:4.545454%;
 	height:200px;
 	background-color:#B9D59D;
-	
+	margin-top:2%;
 	float:left;
 	text-transform: uppercase;
 }
@@ -738,11 +738,20 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	border-radius:20px;
 	height:60px;
 }
+#sidebar-social-networking
+{
+	width:70%;
+	height:60px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
 #sidebar-facebook, #sidebar-twitter
 {
 	width:33.33333%;
 	margin-left:12%;
-	margin-top:10%;
+	margin-top:7%;
 	height:100%;
 	float:left;
 }
@@ -750,7 +759,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 #sidebar-facebook img, #sidebar-twitter img
 {
 
-	width:80%;
+	width:90%;
 }
 
 
