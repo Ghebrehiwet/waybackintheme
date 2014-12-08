@@ -384,7 +384,11 @@ footer div img {
     float:left;
   }
 
+div#flexslider > div {
+  margin-bottom: 20px;
 
+
+}
   #button-container1
   {
 
