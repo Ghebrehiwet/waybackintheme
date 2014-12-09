@@ -38,8 +38,8 @@
 
 		</div>
 
-			<div class="menu-container">
-				<a href="#" class="mobile-button">Menu</a>
+			<div class="jquery-nav">
+				<h4 class="jquery-title"><a href="#">Menu</a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 
