@@ -85,7 +85,7 @@
     left:-80px;
   }
 
-  .jquery-nav {
+/*  .jquery-nav {
     background-color: white;
     height: auto;
     padding: 0 20px;}
@@ -109,13 +109,15 @@
       display: block;
       padding: 10px 0px;
       border-bottom: 1px solid #000;
-      /* font-size: 1.25em; */
+
     }
+
+
     #menu-main-menu > li a {
       display: block;
       padding: 10px 0px;
     }
-
+    */
   .jquery-nav {
 
     background-color:#2B621D;
