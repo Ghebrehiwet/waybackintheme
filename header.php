@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<!--[if lt IE 9]>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
 	<meta name="robots" content="noindex, nofollow" />
@@ -26,7 +26,7 @@
 
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 
 	<?php wp_head(); ?>
 </head>
@@ -38,21 +38,11 @@
 
 		</div>
 
-		<div class="menu-container">
-		
-			<ul>
-				<li><a class="mobile-button">Menu</a>
-					<ul class="sub-nav">
-						<li><a href="#"><p>About Us</p></a></li>
-						<li><a href="#"><p>Get Involved</p></a></li>
-						<li><a href="#"><p>Publications</p></a></li>
-						<li><a href="#"><p>Resources</p></a></li>
-						<li><a href="#"><p>Members</p></a></li>
-						<li><a href="#"><p>Contact Us</p></a></li>
-					</ul>
+			<div class="menu-container">
+				<a class="mobile-button">Menu</a>
 
-					<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
-				</div>
+				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
+			</div>
 
 
-				<div id="main-content">
+	<div id="main-content">
