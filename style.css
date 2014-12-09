@@ -781,6 +781,9 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	font-family:Arial;
 }
 
+#pagecontent h3 a{
+	text-decoration:underline;
+}
 #pagecontent h2 {
 	text-align: center;
 	border-bottom: 3px double #769a0f;
@@ -812,7 +815,6 @@ p.read-more a
 
 #pagecontent img {
 	float:left;
-	margin-left:10px;
 	margin-right:10px;
 	height::100px;
 }
