@@ -781,6 +781,7 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 #pagecontent ul 
 {
 	margin-left:30px;
+	margin-right:10px;
 }
 
 #pagecontent h3{
