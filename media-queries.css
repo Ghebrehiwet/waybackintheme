@@ -384,12 +384,12 @@ footer div img {
 
     display:none
   }
-  .menu-container{
+  .jquery-nav {
 
     background-color:#2B621D;
   }
 
-  .menu-container a {
+  .jquery-title {
     padding: 14px 24px;
     font-size: 1.125em;
     color:#EEF2DC;
