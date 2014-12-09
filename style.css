@@ -581,7 +581,7 @@ width:100%;
 {
 	font-weight:bold;
 font-size:1em;
-color:blue;
+color:#6495ED;
 padding:5px 0 0 20px;
 
 }
@@ -763,7 +763,10 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	height:100%;
 	float:left;
 }
+#sidebar-facebook a, #sidebar-twitter a {
 
+	background-color:transparent;
+}
 #sidebar-facebook img, #sidebar-twitter img
 {
 

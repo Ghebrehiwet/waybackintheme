@@ -39,7 +39,7 @@
 		</div>
 
 			<div class="menu-container">
-				<a class="mobile-button">Menu</a>
+				<a href="#" class="mobile-button">Menu</a>
 
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>

@@ -85,13 +85,43 @@
     left:-80px;
   }
 
-  div.menu-main-menu-container{
+  .menu-container {
+    background-color: #FFCC00;
+    height: auto;
+    padding: 0 20px;}
 
-    display:none
-  }
+    .menu-container a {
+      display: block;
+      padding: 10px 0px;
+    }
+
+    .menu-container .menu-main-menu-container {
+      display: none;
+    }
+
+    .menu-container {
+      text-align: left;
+    }
+
+
+    .menu-container li {
+      float: none;
+      display: block;
+      padding: 10px 0px;
+      border-bottom: 1px solid #000;
+      
+    }
+    #menu-main-menu > li a {
+      display: block;
+      padding: 10px 0px;
+    }
+
+
   .menu-container{
 
     background-color:#2B621D;
+
+
   }
 
   .menu-container a {
@@ -99,6 +129,13 @@
     font-size: 1.125em;
     color:#EEF2DC;
     display:inherit;
+  }
+
+  #menu-main-menu {
+
+
+
+
   }
 
   div#welcome{
