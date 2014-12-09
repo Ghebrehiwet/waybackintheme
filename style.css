@@ -28,6 +28,11 @@ a {
 	text-decoration:none;
 	color:#64766A;
 }
+table
+{
+	margin-left:18px;
+}
+
 div#wrapper{
 	width:80%;
 	background-color:#EEF2DC;
