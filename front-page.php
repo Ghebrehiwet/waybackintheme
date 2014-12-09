@@ -28,7 +28,7 @@ Template Name: Front Page
 
 			<div id="button-container2">
 				<ul id="button-list2">
-					<li id="button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>NEED HELP?</p></a></li>
+					<li id="button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>CONTACT US?</p></a></li>
 					<li id="button-five"><a href="#"><p>SIGN UP</p></a></li>
 					<li id="button-six">
 						<div id="social-networking">
