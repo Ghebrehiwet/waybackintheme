@@ -46,9 +46,11 @@
 		</div><!-- close #main-content -->
 	</div><!-- close #wrapper-->
 	<script>
+
+
 	window.onload = function() {
 
-		// toggle the main menu and current sub-menu
+
 		jQuery(".jquery-title").click(function() {
 			jQuery(".menu-main-menu-container").slideToggle();
 			return false;
@@ -67,9 +69,11 @@
 		});
 
 		// toggle the search box
-	
+
 
 	};
+	
+
 	</script>
 </body>
 </html>
