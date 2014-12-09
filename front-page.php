@@ -29,7 +29,7 @@ Template Name: Front Page
 			<div id="button-container2">
 				<ul id="button-list2">
 					<li id="button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>CONTACT US</p></a></li>
-					<li id="button-five"><a href="#"><p>SIGN UP</p></a></li>
+					<li id="button-five"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/wp-admin/"><p>SIGN IN</p></a></li>
 					<li id="button-six">
 						<div id="social-networking">
 							<div id="facebook"><a href="https://www.facebook.com/pages/Way-Back-Inn/50723934261"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
