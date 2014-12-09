@@ -47,7 +47,7 @@
 	</div><!-- close #wrapper-->
 	<script>
 
-
+/*
 	window.onload = function() {
 
 
@@ -72,7 +72,7 @@
 
 
 	};
-	
+	*/
 
 	</script>
 </body>

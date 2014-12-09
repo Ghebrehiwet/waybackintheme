@@ -86,7 +86,7 @@
   }
 
   .jquery-nav {
-    background-color: #FFCC00;
+    background-color: white;
     height: auto;
     padding: 0 20px;}
 
@@ -116,7 +116,7 @@
       padding: 10px 0px;
     }
 
-/*  .jquery-nav {
+  .jquery-nav {
 
     background-color:#2B621D;
 
@@ -129,7 +129,7 @@
     color:#EEF2DC;
     display:inherit;
   }
-*/
+
   #menu-main-menu {
 
 
