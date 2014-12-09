@@ -20,8 +20,8 @@ Template Name: Front Page
 			</div>
 			<div id="button-container1">
 				<ul id="button-list1">
-					<li id="button-one"><a href="#"><p>VOLUNTEER</p></a></li>
-					<li id="button-two"><a href="#"><p>OUR MISSION</p></a></li>
+					<li id="button-one"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/get-involved/volunteer-application/"><p>VOLUNTEER</p></a></li>
+					<li id="button-two"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/our-history-how-we-help/"><p>OUR MISSION</p></a></li>
 					<li id="button-three"><a href="https://www.justgive.org/basket?acton=donate&ein=91-1548418"><p>DONATE</p></a></li>
 				</ul>
 			</div>
