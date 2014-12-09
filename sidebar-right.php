@@ -12,7 +12,7 @@
 						<li id="side-button-five"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/our-history-how-we-help/"><p>Our Mission</p></a></li>
 						<li id="side-button-six">
 							<div id="sidebar-social-networking">
-								<div id="sidebar-facebook"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
+								<div id="sidebar-facebook"><a href="https://www.facebook.com/pages/Way-Back-Inn/50723934261"><img src="<?php bloginfo('template_url'); ?>/images/logo-facebook.jpg" alt="facebook"></a></div>
 							<div id="sidebar-twitter"><img src="<?php bloginfo('template_url'); ?>/images/twitter-logo2.jpg" alt="twitter"></a></div>
 							</div>
 						</li>
