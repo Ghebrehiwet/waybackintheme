@@ -8,7 +8,7 @@
 				</div>
 				<div id="side-bar-buttons2">
 					<ul id="button-list4">
-						<li id="side-button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/""><p>CONTACT US</p></a></li>
+						<li id="side-button-four"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/contact-us/"><p>CONTACT US</p></a></li>
 						<li id="side-button-five"><a href="http://ec2-54-69-107-154.us-west-2.compute.amazonaws.com/about-us/our-history-how-we-help/"><p>Our Mission</p></a></li>
 						<li id="side-button-six">
 							<div id="sidebar-social-networking">
