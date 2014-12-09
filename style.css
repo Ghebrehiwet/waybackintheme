@@ -778,7 +778,6 @@ ul#button-list4 li a:hover, ul#button-list4 li#active a:hover
 	color: #2B621D;
 	margin-top:30px;
 	margin-left:10px;
-	text-decoration:underline;
 	font-family:Arial;
 }
 
@@ -815,7 +814,6 @@ p.read-more a
 	float:left;
 	margin-left:10px;
 	margin-right:10px;
-	width:200px;
 	height::100px;
 }
 
