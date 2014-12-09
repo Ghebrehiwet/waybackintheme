@@ -112,7 +112,7 @@ div.menu-main-menu-container {
 }
 #menu-main-menu ul li:hover {
 	height:50px;
-	border-radius:10px;
+	border-radius:10px 10px 0 0;
 
 }
 #menu-main-menu ul li a:hover
@@ -120,7 +120,7 @@ div.menu-main-menu-container {
 	background-color:#EEF2DC;
 	color:#2B621D;
 	height:30px;
-	border-radius:10px;
+
 
 }
 
@@ -134,7 +134,7 @@ div.menu-main-menu-container {
 
 	background-color:#EEF2DC;
 	color:#2B621D;
-	border-radius:10px;
+	
 }
 
 
@@ -162,7 +162,7 @@ div.menu-main-menu-container {
 #menu-main-menu li:hover > ul.sub-menu{
 	display: block;
 	margin: 0;
-	border-radius:10px;
+	border-radius:0 0 10px 10px;
 }
 
 
