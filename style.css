@@ -162,7 +162,7 @@ div.menu-main-menu-container {
 #menu-main-menu li:hover > ul.sub-menu{
 	display: block;
 	margin: 0;
-	border-radius:0 0 10px 10px;
+	border-radius:10px;
 }
 
 
