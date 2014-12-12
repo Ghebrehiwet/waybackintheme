@@ -104,7 +104,12 @@
       text-align: left;
     }
 
+    #menu-main-menu > li {
 
+      
+      display: block;
+
+    }
     .jquery-nav li {
       float: none;
       display: block;
