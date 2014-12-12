@@ -89,7 +89,9 @@
  .jquery-nav {
     background-color: white;
     height: auto;
-    padding: 0 20px;}
+    padding: 0 20px;
+    display:block;
+    }
 
     .jquery-title {
       display: block;
@@ -102,6 +104,7 @@
 
     #menu-main-menu {
       text-align: left;
+      display:block;
     }
 
     #menu-main-menu > li {
@@ -148,7 +151,7 @@
   }
   #menu-main-menu ul.sub-menu li {
     display: none;
-  
+
   }
 
 
