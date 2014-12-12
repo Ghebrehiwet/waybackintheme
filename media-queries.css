@@ -97,6 +97,7 @@
 .jquery-nav .menu-main-menu-container {
 display: none;
 height:auto;
+background-color: rgba(43,98,29,0.8);
 }
 
 #menu-main-menu {
@@ -119,7 +120,7 @@ padding: 10px 0px;
 
 
   display: block;
-  
+
 
 }
 #menu-main-menu > li a {
