@@ -115,7 +115,13 @@ padding: 10px 0px;
 
 }
 
+#menu-main-menu > li {
 
+
+  display: block;
+  
+
+}
 #menu-main-menu > li a {
 display: block;
 padding: 10px 0px;
@@ -135,10 +141,8 @@ padding: 10px 0px;
   display:inherit;
 }
 
-#menu-main-menu {
-
-
-
+#menu-main-menu li:hover > ul.sub-menu{
+  display: none
 
 }
 
@@ -433,7 +437,7 @@ footer div img {
       color:white;
       display:inherit;
     }
-    
+
   div#welcome{
     clear:both;
     width:97.916667%;
