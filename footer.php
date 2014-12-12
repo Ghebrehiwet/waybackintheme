@@ -47,7 +47,7 @@
 	</div><!-- close #wrapper-->
 	<script>
 
-/*
+
 	window.onload = function() {
 
 
@@ -68,11 +68,11 @@
 			}
 		});
 
-		// toggle the search box
+	
 
 
 	};
-	*/
+
 
 	</script>
 </body>
