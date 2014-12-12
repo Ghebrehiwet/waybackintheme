@@ -146,11 +146,11 @@
 
 
   }
-
-  #menu-main-menu li:hover > ul.sub-menu{
+  #menu-main-menu ul.sub-menu li {
     display: none;
   
   }
+
 
   div#welcome{
     clear:both;
