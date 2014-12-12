@@ -39,7 +39,8 @@
 		</div>
 
 			<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Menu<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.jpg"></div></a></h4>
+				<h4 class="jquery-title"><a href="#">Menu</a></h4>
+				<div class="menu-icon"><img src="<?php bloginfo('template_url'); ?>/images/icon-menu.jpg"></div>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 
