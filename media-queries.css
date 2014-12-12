@@ -105,13 +105,15 @@
     #menu-main-menu {
       text-align: left;
       display:block;
-      height:auto;
+
     }
 
     #menu-main-menu > li {
 
-      height:auto;
+
       display: block;
+      height:50px;
+      width:100%;
 
     }
 
