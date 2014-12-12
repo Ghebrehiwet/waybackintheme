@@ -85,7 +85,7 @@
   }
 
     .jquery-nav {
-  
+
   height: auto;
   padding: 0 20px;}
 
@@ -115,7 +115,10 @@ padding: 6px 22px;
 
 
 }
+.jquery-nav li:hover {
 
+  width:100%;
+}
 #menu-main-menu > li {
 
 
