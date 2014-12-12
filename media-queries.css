@@ -111,7 +111,7 @@ height:auto;
 .jquery-nav li {
 float: none;
 display: block;
-padding: 6px 22px;
+
 
 
 
@@ -126,7 +126,7 @@ padding: 6px 22px;
 }
 #menu-main-menu > li a {
 display: block;
-padding: 10px 0px;
+
 }
 
 .jquery-nav {
