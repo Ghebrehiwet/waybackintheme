@@ -110,6 +110,8 @@
       display: block;
 
     }
+
+
     .jquery-nav li {
       float: none;
       display: block;
@@ -119,7 +121,7 @@
     }
 
 
-    #menu-main-menu  li > a {
+    #menu-main-menu > li a {
       display: block;
       padding: 10px 0px;
     }
@@ -143,6 +145,11 @@
 
 
 
+  }
+
+  #menu-main-menu li:hover > ul.sub-menu{
+    display: none;
+  
   }
 
   div#welcome{
