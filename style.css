@@ -438,6 +438,10 @@ div#testimonials span {
 	font-family:Arial;
 	font-style:normal;
 }
+div#testimonials h3 {
+	font-weight:normal;
+	font-style:italic;
+}
 div#testimonials a {
 	text-decoration:none;
 	background-color:#2B621D;
@@ -453,6 +457,7 @@ div#testimonials p {
 	text-align:justify;
 	margin-left:10px;
 	margin-right:10px;
+	font-style:italic;
 }
 
 div#testimonials img {
