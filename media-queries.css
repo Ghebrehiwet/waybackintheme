@@ -139,7 +139,7 @@ display: block;
 .jquery-title {
   padding: 14px 24px;
   font-size: 1.125em;
-  color:white;
+  color:white !important;
   display:inherit;
 }
 
@@ -398,6 +398,7 @@ footer div img {
   .jquery-title {
     display: block;
     padding: 10px 0px;
+    color:white !important;
   }
 
   .jquery-nav .menu-main-menu-container {

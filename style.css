@@ -24,10 +24,11 @@ background-color: #F0F0F0;
 font-size:1em;
 
 }
-header a {
+a {
 	text-decoration:none;
 	color:#64766A;
 }
+
 table
 {
 	margin-left:18px;
