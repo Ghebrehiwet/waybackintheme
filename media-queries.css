@@ -110,7 +110,7 @@
 
     #menu-main-menu > li {
 
-
+      height:auto;
       display: block;
 
     }
