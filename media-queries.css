@@ -390,56 +390,68 @@ footer div img {
   }
 
   .jquery-nav {
-    background-color: white;
+    width:100%;
+
     height: auto;
-    padding: 0 20px;}
+  }
 
-    .jquery-title {
-      display: block;
-      padding: 10px 0px;
-    }
+  .jquery-title {
+    display: block;
+    padding: 10px 0px;
+  }
 
-    .jquery-nav .menu-main-menu-container {
-      display: none;
-      height:auto;
-    }
+  .jquery-nav .menu-main-menu-container {
+    display: none;
+    height:auto;
 
-    #menu-main-menu {
-      text-align: left;
-      height:auto;
-      background-color: rgba(43,98,29,0.8);
-    }
+  }
 
+  #menu-main-menu {
+    text-align: left;
+    height:auto;
 
-    .jquery-nav li {
-      float: none;
-      display: block;
-      padding: 10px 0px;
+  }
 
 
-
-    }
-
-
-    #menu-main-menu > li a {
-      display: block;
-      padding: 10px 0px;
-    }
-
-    .jquery-nav {
-
-      background-color:#2B621D;
+  .jquery-nav li {
+    float: none;
+    display: block;
 
 
-    }
 
-    .jquery-title {
-      padding: 14px 24px;
-      font-size: 1.125em;
-      color:white;
-      display:inherit;
-    }
 
+  }
+
+  #menu-main-menu > li {
+
+
+    display: block;
+
+
+  }
+  #menu-main-menu > li a {
+    display: block;
+
+  }
+
+  .jquery-nav {
+
+    background-color:#2B621D;
+
+
+  }
+
+  .jquery-title {
+    padding: 14px 24px;
+    font-size: 1.125em;
+    color:white;
+    display:inherit;
+  }
+
+  #menu-main-menu li:hover > ul.sub-menu{
+    display: none
+
+  }
   div#welcome{
     clear:both;
     width:97.916667%;
