@@ -142,6 +142,11 @@ display: block;
   color:white !important;
   display:inherit;
 }
+.jquery-title a {
+  color:white !important;
+
+}
+
 
 #menu-main-menu li:hover > ul.sub-menu{
   display: none
@@ -398,9 +403,12 @@ footer div img {
   .jquery-title {
     display: block;
     padding: 10px 0px;
-    color:white !important;
+    
   }
+  .jquery-title a {
+    color:white !important;
 
+  }
   .jquery-nav .menu-main-menu-container {
     display: none;
     height:auto;
