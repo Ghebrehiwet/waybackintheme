@@ -85,11 +85,15 @@
   }
 
     .jquery-nav {
-  background-color: white;
+
   height: auto;
-  padding: 0 20px;}
+  padding: 0 20px;
+  background-color: rgba(43,98,29,0.8);
+
+  }
 
   .jquery-title {
+    color: white;
   display: block;
   padding: 10px 0px;
 }
@@ -111,6 +115,7 @@ background-color: rgba(43,98,29,0.8);
 float: none;
 display: block;
 padding: 6px 22px;
+background-color: rgba(43,98,29,0.8);
 
 
 
@@ -130,7 +135,7 @@ padding: 10px 0px;
 
 .jquery-nav {
 
-  background-color:#2B621D;
+
 
 
 }
