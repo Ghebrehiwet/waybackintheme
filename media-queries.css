@@ -145,11 +145,17 @@ display: block;
   color:#EEF2DC !important;
 
 }
-span.menu-icon {
+div.menu-icon {
 
   float:right;
-}
+  width:40px;
 
+}
+div.menu-icon img {
+
+
+  width:100%;
+}
 
 #menu-main-menu li:hover > ul.sub-menu{
   display: none
@@ -465,11 +471,18 @@ footer div img {
 
   }
 
-  span.menu-icon {
+  div.menu-icon {
 
     float:right;
+    width:40px;
   }
-  
+
+  div.menu-icon img {
+
+
+    width:100%;
+  }
+
   div#welcome{
     clear:both;
     width:97.916667%;
