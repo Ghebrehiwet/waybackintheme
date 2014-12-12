@@ -85,9 +85,10 @@
   }
 
     .jquery-nav {
+      width:100%;
 
   height: auto;
-  padding: 0 20px;}
+  }
 
   .jquery-title {
   display: block;
@@ -115,10 +116,7 @@ padding: 6px 22px;
 
 
 }
-.jquery-nav li:hover {
 
-  width:100%;
-}
 #menu-main-menu > li {
 
 
