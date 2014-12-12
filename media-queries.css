@@ -102,6 +102,7 @@ height:auto;
 #menu-main-menu {
 text-align: left;
 height:auto;
+background-color: rgba(43,98,29,0.8);
 }
 
 
@@ -109,7 +110,7 @@ height:auto;
 float: none;
 display: block;
 padding: 10px 0px;
-background-color: rgba(43,98,29,0.8);
+
 
 
 }
@@ -382,21 +383,57 @@ footer div img {
 
   }
 
-  div.menu-main-menu-container{
-
-    display:none
-  }
   .jquery-nav {
+    background-color: white;
+    height: auto;
+    padding: 0 20px;}
 
-    background-color:#2B621D;
-  }
+    .jquery-title {
+      display: block;
+      padding: 10px 0px;
+    }
 
-  .jquery-title {
-    padding: 14px 24px;
-    font-size: 1.125em;
-    color:white;
-    display:inherit;
-  }
+    .jquery-nav .menu-main-menu-container {
+      display: none;
+      height:auto;
+    }
+
+    #menu-main-menu {
+      text-align: left;
+      height:auto;
+      background-color: rgba(43,98,29,0.8);
+    }
+
+
+    .jquery-nav li {
+      float: none;
+      display: block;
+      padding: 10px 0px;
+
+
+
+    }
+
+
+    #menu-main-menu > li a {
+      display: block;
+      padding: 10px 0px;
+    }
+
+    .jquery-nav {
+
+      background-color:#2B621D;
+
+
+    }
+
+    .jquery-title {
+      padding: 14px 24px;
+      font-size: 1.125em;
+      color:white;
+      display:inherit;
+    }
+    
   div#welcome{
     clear:both;
     width:97.916667%;
