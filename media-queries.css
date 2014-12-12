@@ -145,6 +145,10 @@ display: block;
   color:#EEF2DC !important;
 
 }
+span.menu-icon {
+
+  float:right;
+}
 
 
 #menu-main-menu li:hover > ul.sub-menu{
@@ -460,6 +464,12 @@ footer div img {
     display: none
 
   }
+
+  span.menu-icon {
+
+    float:right;
+  }
+  
   div#welcome{
     clear:both;
     width:97.916667%;

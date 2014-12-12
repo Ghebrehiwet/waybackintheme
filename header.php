@@ -39,7 +39,7 @@
 		</div>
 
 			<div class="jquery-nav">
-				<h4 class="jquery-title"><a href="#">Menu</a></h4>
+				<h4 class="jquery-title"><a href="#">Menu<span class="menu-icon"><img src="#"></span></a></h4>
 				<?php wp_nav_menu(array('menu' => 'Main Menu')); ?>
 			</div>
 
