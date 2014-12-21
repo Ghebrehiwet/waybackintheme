@@ -10,6 +10,8 @@
 				bcn_display();
 			}?>
 		</p>
+		
+		 
 			<h2><?php the_title(); ?></h2>
 
 
